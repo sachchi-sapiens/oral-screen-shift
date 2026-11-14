@@ -29,3 +29,27 @@ Two jobs. `load_rgb` is the single way a photo is opened: phone photos carry a r
 ## src/train.py
 
 The two models being compared. The fine-tuned ResNet-50 stands for what published papers do. The linear probe on frozen DINOv2 features tests whether a model that never adjusts to one site's photos travels better. The colour-augmentation switch tests whether the cross-site drop is about cameras and lighting. Hyperparameters are fixed here, not tuned per site, so differences between cells of the results matrix come from the data.
+
+## scripts/prepare.py
+
+Runs once after downloading: lists every usable photo, groups photos by patient, reports photos that appear in two datasets and removes the second copy, and writes the three split files that every later step reads. Keeping this in one script means the Colab run and the laptop run cannot end up with different splits.
+
+## experiments/common.py
+
+Things all experiment scripts must agree on: which sites are trained on, how a prediction file is named, and that a decision threshold comes from the training site's validation data and never from the test site. Also the plot colours, so a method has the same colour in every figure.
+
+## experiments/run_gpu.py
+
+Trains each model and saves its refer probability for every validation and test photo. Saving predictions separates the slow part (needs a GPU, runs in Colab) from the analysis (runs anywhere in seconds), and lets a reader regenerate every table without retraining. It skips anything already saved, because free Colab sessions disconnect.
+
+## experiments/e1_matrix.py
+
+Experiment 1, the headline: train on one site, test on every site. The diagonal is what papers report; the off-diagonal is the answer to this project's question.
+
+## experiments/e2_fixes.py
+
+Experiment 2: compares the candidate fixes (colour augmentation, frozen pretrained features, training on two sites) at sites the model never saw.
+
+## experiments/e3_refusal.py
+
+Experiment 3: checks whether the "not sure, refer" rule keeps its 90% promise after a move, and how many labelled local photos are needed to restore it. This is the number a clinic would need before using such a tool.

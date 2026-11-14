@@ -11,8 +11,9 @@ import pandas as pd
 
 from src.evaluate import pick_threshold
 
-MAIN = ["smartom", "code", "china"]       # sites large enough to train on
-ALL = MAIN + ["karnataka"]                # karnataka is a test site only
+MAIN = ["smartom", "china"]               # sites with enough refer cases to train on
+ALL = MAIN + ["code", "karnataka"]        # code (21 refer photos) and karnataka (323 photos) are test sites only
+POOLED = "pooled"                         # a model trained on both main sites together
 SEEDS = [0, 1, 2]
 NAMES = {"smartom": "SMART-OM (India)", "code": "CODE (India)", "china": "China", "karnataka": "Karnataka (India)"}
 
@@ -34,8 +35,7 @@ def pred_path(results: Path, model: str, train: str, seed: int, test: str, split
 
 
 def training_sites(train: str) -> list[str]:
-    """'all-but-china' was trained on the other two main sites."""
-    return [s for s in MAIN if s != train.removeprefix("all-but-")] if train.startswith("all-but-") else [train]
+    return MAIN if train == POOLED else [train]
 
 
 def load_preds(results: Path, splits_dir: Path, model: str, train: str, seed: int, test: str, split: str):

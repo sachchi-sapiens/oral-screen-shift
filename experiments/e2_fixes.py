@@ -1,7 +1,7 @@
 """Experiment 2: which fix recovers performance at a site the model never saw?
 
-For each held-out site, compare models trained on one other site (averaged over the choices)
-with models trained on both other sites together.
+For each test site, compare models trained on one other site (averaged over the choices).
+For the two test-only sites, also compare a model trained on both main sites together.
 
     python -m experiments.e2_fixes
 """
@@ -11,10 +11,10 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from .common import AQUA, BLUE, MAGENTA, MAIN, NAMES, ORANGE, YELLOW, plt
+from .common import ALL, AQUA, BLUE, MAGENTA, MAIN, NAMES, ORANGE, POOLED, YELLOW, plt
 from .e1_matrix import cell
 
-# method name -> (model, trained on both other sites?, colour)
+# method name -> (model, trained on both main sites?, colour)
 METHODS = {
     "ResNet, one site": ("resnet", False, BLUE),
     "ResNet + colour augmentation, one site": ("resnet_color", False, ORANGE),
@@ -27,9 +27,11 @@ KEEP = ["auroc", "sensitivity", "specificity", "ece"]
 
 def main(results: Path = Path("results"), splits_dir: Path = Path("splits")) -> pd.DataFrame:
     rows = []
-    for test in MAIN:
+    for test in ALL:
         for method, (model, pooled, _) in METHODS.items():
-            trains = [f"all-but-{test}"] if pooled else [s for s in MAIN if s != test]
+            if pooled and test in MAIN:
+                continue  # a pooled model has seen this site
+            trains = [POOLED] if pooled else [s for s in MAIN if s != test]
             cells = [c for c in (cell(results, splits_dir, model, train, test) for train in trains) if c]
             if cells:
                 rows.append({"test": test, "method": method, "sources": len(cells),
@@ -38,7 +40,7 @@ def main(results: Path = Path("results"), splits_dir: Path = Path("splits")) -> 
     table.to_csv(Path(results) / "e2_fixes.csv", index=False, float_format="%.4f")
 
     fig, ax = plt.subplots(figsize=(9, 4))
-    tests = [s for s in MAIN if s in set(table.test)]
+    tests = [s for s in ALL if s in set(table.test)]
     width = 0.8 / len(METHODS)
     for k, (method, (_, _, colour)) in enumerate(METHODS.items()):
         t = table[table.method == method].set_index("test").reindex(tests)
@@ -48,7 +50,7 @@ def main(results: Path = Path("results"), splits_dir: Path = Path("splits")) -> 
             if not np.isnan(value):
                 ax.text(xi, value + 0.005, f"{value:.2f}", ha="center", va="bottom", fontsize=8)
     ax.set_xticks(range(len(tests)), [NAMES[s] for s in tests])
-    ax.set_xlabel("site held out for testing")
+    ax.set_xlabel("test site (never seen in training)")
     ax.set_ylabel("AUROC (0.5 = chance)")
     ax.set_ylim(0.5, 1.0)
     ax.set_title("Performance at a site the model never saw, by fix")
