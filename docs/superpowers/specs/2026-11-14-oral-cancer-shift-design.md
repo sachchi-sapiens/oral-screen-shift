@@ -33,23 +33,28 @@ It is also meant to be a piece of work Sachchidananda can put on a CV and discus
 
 ## Data
 
-| Name | Source | Size | Labels | Access |
+All four are open downloads; no access request is needed. (The two Zenodo datasets in the first draft are restricted and their request form failed, so they are dropped.)
+
+| Name | Source | Size | Labels | Licence |
 |---|---|---|---|---|
-| Sri Lanka | Zenodo 10664056, Piyarathne et al., Oral Oncology 2024 | 3,000 images, 714 patients | healthy, benign, OPMD, cancer; lesion outlines (COCO) | Restricted, request on Zenodo. CC BY-NC-ND 4.0 |
-| SMART (Tamil Nadu) | Zenodo 16899860, ICMR SMITA project | 2,640 images, 356 patients | normal, variation from normal, OPMD | Restricted, request on Zenodo. CC BY 4.0 |
-| Karnataka | Mendeley Data mhjyrn35p4 | 323 original images | benign lesion, malignant lesion | Open. CC BY 4.0 |
+| SMART-OM (India) | figshare 10.6084/m9.figshare.31341790 | 2,469 images, 331 subjects, 1 GB | normal, variation from normal, OPMD, cancer; lesion outlines | CC BY 4.0 |
+| CODE (India, a different centre, same photo protocol) | figshare 10.6084/m9.figshare.30550889, version 5 | 704 participants, 6.6 GB | same four classes; lesion outlines; cancer confirmed by biopsy | CC BY 4.0 |
+| China | Hugging Face `HRruiH/Dataset-of-oral-mucosal-diseases` (Yu et al., BMC Oral Health 2026) | 1,348 images, 1.6 GB | normal, leukoplakia, lichen planus, submucous fibrosis, cancer | Apache 2.0 |
+| Karnataka (India) | Mendeley Data mhjyrn35p4 | 323 original images | benign lesion, malignant lesion | CC BY 4.0 |
 
 OPMD means "oral potentially malignant disorder": a lesion that is not cancer yet but can become it.
 
-**Common task.** The three label sets differ, so every dataset is mapped to the decision a screener actually makes: *refer* (OPMD or cancer) versus *do not refer* (healthy, normal variation, benign). The mapping lives in one file and is tested.
+**Why this set is useful.** It gives two sizes of shift. SMART-OM to CODE is a mild one: another centre, same photo protocol, same country. Either Indian set to China is a strong one: another country, mixed cameras, some images taken from the literature. The study can say how the loss grows with the size of the change.
+
+**Common task.** The label sets differ, so every dataset is mapped to the decision a screener actually makes: *refer* (OPMD or cancer) versus *do not refer* (healthy, normal variation, benign). The mapping lives in one file and is tested.
 
 **Known problems, stated up front.**
-- Two datasets need an access request from Sachchidananda's Zenodo account. Approval is up to the owners. Work starts on Karnataka so the pipeline is ready when access arrives.
-- Karnataka has no healthy mouths and (as far as we can tell) no patient ids, and it is small. It is used as a test site and for pipeline development, not as a main training site. If patient ids are missing, images are split individually and the report says so.
-- SMART has no cancer class, so "refer" there means OPMD only. This is a label shift on top of the image shift; the report separates the two where it can.
-- Sri Lanka's licence forbids redistributing derivatives. The repository ships no images and no cached features, only download scripts and code.
-- If only one restricted dataset is granted, the study runs with two sites plus Karnataka. If neither is granted, we stop and choose again; a single 323-image dataset cannot support the question.
-- A fourth dataset, SMART-OM (2,469 images), is described in a preprint but we found no download location. It is added only if one turns up.
+- SMART-OM and CODE come from the same research network. CODE's authors call them independent, but before any training we check for the same image in both (perceptual hash) and for shared patient ids, and remove overlaps.
+- China and Karnataka have no patient ids as far as we can tell. They are split by image, and near-duplicate images are grouped so they stay on one side. The report says so.
+- Part of the China set comes from published papers, so its cancers may be more advanced and obvious than in screening. This is a shift in case mix, not only in camera.
+- Karnataka has no healthy mouths and is small. It is a test column only.
+- Class counts per dataset are unknown until download. If a site has too few "refer" cases for stable intervals, the report says so rather than hiding the cell.
+- The repository ships no images, only download scripts.
 
 ## Experiments
 
@@ -68,7 +73,7 @@ Diagonal cells are in-site results; off-diagonal cells are the answer to the res
 
 **E3. Safe refusal.** Split conformal prediction on the training site gives a rule of the form "answer only when confident; otherwise refer", with a promised error rate. Report whether the promise holds in-site and at the other sites, plus risk-coverage curves. Then recalibrate using a small labelled sample from the new site (25, 50, 100 images) and report how many are needed to restore the promise. This is the practical result: how much local labelling a clinic would need before using the tool.
 
-**E4. Where the model looks (stretch).** Grad-CAM heatmaps on Sri Lanka, scored against the expert lesion outlines by the fraction of heatmap peaks that fall inside a lesion. Done only if E1 to E3 are finished.
+**E4. Where the model looks (stretch).** Grad-CAM heatmaps on SMART-OM and CODE, scored against the expert lesion outlines by the fraction of heatmap peaks that fall inside a lesion. Done only if E1 to E3 are finished.
 
 **Statistics.** Three random seeds per trained model. 95% confidence intervals by bootstrap over patients, not images. Splits are 70/15/15 by patient, fixed by seed and saved to disk.
 
@@ -90,7 +95,8 @@ oral-screen-shift/
   README.md            what, why, results tables, how to rerun
   WHY.md               one entry per code file: why it exists, what would break without it
   REPORT.md            paper-style write-up: question, data, method, results, limits
-  data/README.md       how to request and place each dataset (no images in git)
+  data/README.md       where each dataset comes from and its licence (no images in git)
+  scripts/download.py  fetch and unpack the four datasets
   src/
     datasets.py        load each dataset, map labels to refer / do not refer
     splits.py          patient-level splits, saved to disk
@@ -108,9 +114,8 @@ Tests cover what can silently corrupt results: no patient appears in two splits,
 
 ## What Sachchidananda needs to do
 
-1. Request access to Zenodo records 10664056 and 16899860 from his own account, giving the research purpose honestly.
-2. Run the Colab notebook when it is ready (his Google account, his Drive for the data).
-3. Create the GitHub repository and push when the work is done.
+1. Run the Colab notebook when it is ready (his Google account, his Drive for the data).
+2. Create the GitHub repository and push when the work is done.
 
 ## Left to the builder
 
