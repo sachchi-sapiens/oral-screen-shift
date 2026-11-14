@@ -53,3 +53,11 @@ Experiment 2: compares the candidate fixes (colour augmentation, frozen pretrain
 ## experiments/e3_refusal.py
 
 Experiment 3: checks whether the "not sure, refer" rule keeps its 90% promise after a move, and how many labelled local photos are needed to restore it. This is the number a clinic would need before using such a tool.
+
+## scripts/shrink.py
+
+Phone photos are several megabytes and the models see 224 pixels. Decoding full-size photos every epoch would make the Colab run take most of a day; with small copies it takes about an hour. Relative paths are unchanged, so the same split files apply.
+
+## notebooks/colab_gpu.ipynb
+
+The laptop this was built on has no GPU. This notebook is the exact sequence of commands that fine-tunes the ResNet models on a free Colab GPU and saves their predictions to Google Drive. Each cell is one command from this repository, so nothing about the results lives only in a notebook.
