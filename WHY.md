@@ -17,3 +17,15 @@ Holds the numbers every table reports: AUROC, sensitivity, specificity and calib
 ## src/conformal.py
 
 A screening tool should be able to say "not sure, see a doctor". Split conformal prediction gives that rule together with a promised error rate. Experiment 3 asks whether the promise survives a move to a new site, so the rule has to be written out and tested on data where the right answer is known. It is about twenty lines, so it is written here instead of pulling in a library.
+
+## src/splits.py
+
+The most common flaw in papers on this topic is photos of one patient landing in both training and test data, which makes a model look better than it is. This file puts each patient wholly in train, validation or test. Two datasets do not name their patients, so it also fingerprints every photo (a 64-bit difference hash) and treats near-identical photos as one patient. The same fingerprints find photos shared between two datasets, which would otherwise make a "new site" test partly a test on training images. The fingerprint is about five lines, so no hashing library is used.
+
+## src/features.py
+
+Two jobs. `load_rgb` is the single way a photo is opened: phone photos carry a rotation flag and arrive as greyscale, CMYK or with transparency, and a model fed sideways or four-channel images fails in ways that look like a site effect. `extract` runs a frozen pretrained model over every photo once and saves the result, so the linear-probe and refusal experiments rerun in seconds on a laptop instead of needing a GPU each time.
+
+## src/train.py
+
+The two models being compared. The fine-tuned ResNet-50 stands for what published papers do. The linear probe on frozen DINOv2 features tests whether a model that never adjusts to one site's photos travels better. The colour-augmentation switch tests whether the cross-site drop is about cameras and lighting. Hyperparameters are fixed here, not tuned per site, so differences between cells of the results matrix come from the data.
