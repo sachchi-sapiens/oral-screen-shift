@@ -32,7 +32,7 @@ def main(results: Path = Path("results"), splits_dir: Path = Path("splits")) -> 
             if pooled and test in MAIN:
                 continue  # a pooled model has seen this site
             trains = [POOLED] if pooled else [s for s in MAIN if s != test]
-            cells = [c for c in (cell(results, splits_dir, model, train, test) for train in trains) if c]
+            cells = [c for c in (cell(results, splits_dir, model, train, test, intervals=False) for train in trains) if c]
             if cells:
                 rows.append({"test": test, "method": method, "sources": len(cells),
                              **pd.DataFrame(cells)[KEEP].mean().to_dict()})

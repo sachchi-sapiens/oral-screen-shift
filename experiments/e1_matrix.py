@@ -15,7 +15,7 @@ from .common import ALL, MAIN, NAMES, SEEDS, load_preds, plt, threshold_for
 MODELS = {"probe": "Linear probe on frozen DINOv2", "resnet": "Fine-tuned ResNet-50"}
 
 
-def cell(results, splits_dir, model, train, test):
+def cell(results, splits_dir, model, train, test, intervals: bool = True):
     """Mean over seeds of each metric for one (model, train site, test site).
 
     Each seed is a different split and a different trained model. Every seed gets its own
@@ -29,8 +29,9 @@ def cell(results, splits_dir, model, train, test):
             continue
         y, p, groups = preds
         row = {**metrics(y, p, threshold), "threshold": threshold}
-        for name, (lo, hi) in bootstrap_ci(y, p, groups, threshold).items():
-            row[f"{name}_lo"], row[f"{name}_hi"] = lo, hi
+        if intervals:  # the bootstrap is the slow part; experiment 2 only needs the point values
+            for name, (lo, hi) in bootstrap_ci(y, p, groups, threshold).items():
+                row[f"{name}_lo"], row[f"{name}_hi"] = lo, hi
         per_seed.append(row)
     if not per_seed:
         return None
