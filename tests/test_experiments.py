@@ -80,3 +80,16 @@ def test_e2_one_row_per_available_method_and_site(tmp_path):
     assert not t.method.str.contains("two sites").any()
     assert t.auroc.between(0.4, 0.6).all()            # every row is a cross-site number
     assert (results / "e2_fixes.png").exists()
+
+
+def test_interval_uses_every_seed_not_only_the_first(tmp_path):
+    results, splits_dir = fake_run(tmp_path)
+    for seed in (1, 2):   # make seeds 1 and 2 good cross-site, leaving seed 0 at chance
+        rows = pd.read_csv(splits_dir / f"seed{seed}.csv")
+        rows = rows[(rows.site == "china") & (rows.split == "test")]
+        rng = np.random.default_rng(seed)
+        np.save(pred_path(results, "probe", "smartom", seed, "china", "test"),
+                np.where(rows.label == 1, rng.uniform(0.4, 1, len(rows)), rng.uniform(0, 0.6, len(rows))))
+    t = e1_matrix.main(results, splits_dir)
+    cell = t[(t.model == "probe") & (t.train == "smartom") & (t.test == "china")].iloc[0]
+    assert cell.auroc > 0.7 and cell.auroc_lo <= cell.auroc <= cell.auroc_hi

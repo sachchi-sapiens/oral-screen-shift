@@ -16,22 +16,25 @@ MODELS = {"probe": "Linear probe on frozen DINOv2", "resnet": "Fine-tuned ResNet
 
 
 def cell(results, splits_dir, model, train, test):
-    """Mean over seeds of each metric for one (model, train site, test site), plus seed-0 intervals."""
-    per_seed, interval = [], None
+    """Mean over seeds of each metric for one (model, train site, test site).
+
+    Each seed is a different split and a different trained model. Every seed gets its own
+    patient-level bootstrap interval, and the reported interval is the mean of those ends.
+    """
+    per_seed = []
     for seed in SEEDS:
         threshold = threshold_for(results, splits_dir, model, train, seed)
         preds = load_preds(results, splits_dir, model, train, seed, test, "test")
         if threshold is None or preds is None:
             continue
         y, p, groups = preds
-        per_seed.append({**metrics(y, p, threshold), "threshold": threshold})
-        if interval is None:
-            interval = bootstrap_ci(y, p, groups, threshold)
+        row = {**metrics(y, p, threshold), "threshold": threshold}
+        for name, (lo, hi) in bootstrap_ci(y, p, groups, threshold).items():
+            row[f"{name}_lo"], row[f"{name}_hi"] = lo, hi
+        per_seed.append(row)
     if not per_seed:
         return None
     row = pd.DataFrame(per_seed).mean().to_dict()
-    for name in ("auroc", "sensitivity", "specificity"):
-        row[f"{name}_lo"], row[f"{name}_hi"] = interval[name]
     return {"model": model, "train": train, "test": test, "seeds": len(per_seed), **row}
 
 
@@ -39,6 +42,9 @@ def figure(table: pd.DataFrame, out: Path) -> None:
     fig, axes = plt.subplots(1, len(MODELS), figsize=(11, 3.6))
     for ax, (model, title) in zip(axes, MODELS.items()):
         t = table[table.model == model]
+        if t.empty:  # this model has not been trained yet
+            ax.set_axis_off()
+            continue
         trains = [s for s in MAIN if s in set(t.train)]
         tests = [s for s in ALL if s in set(t.test)]
         grid = t.pivot(index="train", columns="test", values="auroc").reindex(index=trains, columns=tests)
