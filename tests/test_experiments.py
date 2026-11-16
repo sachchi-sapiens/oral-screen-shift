@@ -93,3 +93,22 @@ def test_interval_uses_every_seed_not_only_the_first(tmp_path):
     t = e1_matrix.main(results, splits_dir)
     cell = t[(t.model == "probe") & (t.train == "smartom") & (t.test == "china")].iloc[0]
     assert cell.auroc > 0.7 and cell.auroc_lo <= cell.auroc <= cell.auroc_hi
+
+
+def test_e4_detects_a_site_signature_only_when_there_is_one(tmp_path):
+    from experiments import e4_site
+    rng = np.random.default_rng(0)
+    features, splits_dir, results = tmp_path / "features", tmp_path / "splits", tmp_path / "results"
+    for d in (features, splits_dir, results):
+        d.mkdir()
+    rows = []
+    for site, shift in [("smartom", 0.0), ("china", 0.0), ("karnataka", 3.0)]:   # only karnataka looks different
+        n = 120
+        rows += [{"path": f"{site}/{i}.jpg", "site": site, "group": f"{site}:{i // 2}", "label": int(i % 4 == 0),
+                  "split": "test"} for i in range(n)]
+        np.save(features / f"{site}.npy", rng.normal(size=(n, 6)) + shift)
+    pd.DataFrame(rows).to_csv(splits_dir / "seed0.csv", index=False)
+    t = e4_site.main(features, splits_dir, results).set_index(["site_a", "site_b"]).balanced_accuracy
+    assert abs(t[("china", "smartom")] - 0.5) < 0.15
+    assert t[("china", "karnataka")] > 0.95 and t[("karnataka", "smartom")] > 0.95
+    assert (results / "e4_site.csv").exists()

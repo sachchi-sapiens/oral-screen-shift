@@ -61,3 +61,15 @@ Phone photos are several megabytes and the models see 224 pixels. Decoding full-
 ## notebooks/colab_gpu.ipynb
 
 The laptop this was built on has no GPU. This notebook is the exact sequence of commands that fine-tunes the ResNet models on a free Colab GPU and saves their predictions to Google Drive. Each cell is one command from this repository, so nothing about the results lives only in a notebook.
+
+## experiments/e4_site.py
+
+Experiment 4, added after the first results. A model trained on one dataset scored healthy mouths from another dataset as lesions. This script asks why: it trains a classifier to say which dataset a healthy photo came from. If that is easy, the photos carry a "site signature" (camera, lighting, framing), and because the datasets differ so much in how many lesions they hold, a model can score well in-site by learning the signature instead of the lesion. It replaces the heatmap experiment in the original plan, because it explains the failure more directly.
+
+## app/demo.py
+
+A small page where one photo gets "refer", "do not refer" or "not sure", using the same probe and the same refusal rule as the experiments. It exists so the result can be shown to someone in a minute. Its warning banner is part of the code on purpose: the experiments show this model is not reliable on photos from a new place.
+
+## tests/
+
+Tests use tiny generated images and made-up predictions, so they need no dataset, no GPU and no network. They pin the things that would silently corrupt results: a patient in two splits, a wrong label mapping, a threshold that peeked at the test site, a refusal rule whose coverage is off, a download that reports success with no files.
