@@ -26,14 +26,14 @@ smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00014_R_DT.JP
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00014_W_DT.jpeg,smartom,smartom:SMITA00014,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00015_R_DT.JPG,smartom,smartom:SMITA00015,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00015_W_DT.jpeg,smartom,smartom:SMITA00015,0,val
-smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00016_R_DT.JPG,smartom,smartom:SMITA00016,0,test
-smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00016_W_DT.jpg,smartom,smartom:SMITA00016,0,test
+smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00016_R_DT.JPG,smartom,smartom:SMITA00016,0,val
+smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00016_W_DT.jpg,smartom,smartom:SMITA00016,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00017_R_DT.JPG,smartom,smartom:SMITA00017,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00017_W_DT.jpg,smartom,smartom:SMITA00017,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00018_R_DT.JPG,smartom,smartom:SMITA00018,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00018_W_DT.jpeg,smartom,smartom:SMITA00018,0,train
-smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00019_R_DT.JPG,smartom,smartom:SMITA00019,0,test
-smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00019_W_DT.jpg,smartom,smartom:SMITA00019,0,test
+smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00019_R_DT.JPG,smartom,smartom:SMITA00019,0,val
+smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00019_W_DT.jpg,smartom,smartom:SMITA00019,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00020_R_DT.JPG,smartom,smartom:SMITA00020,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00020_W_DT.jpg,smartom,smartom:SMITA00020,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00021_R_DT.JPG,smartom,smartom:SMITA00021,0,train
@@ -60,6 +60,7 @@ smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00034_R_DT.JP
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00035_R_DT.jpg,smartom,smartom:SMITA00035,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00036_R_DT.JPG,smartom,smartom:SMITA00036,0,test
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00037_R_DT.JPG,smartom,smartom:SMITA00037,0,train
+smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00038_R_DT.JPG,smartom,smartom:SMITA00038,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00039_R_DT.JPG,smartom,smartom:SMITA00039,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00040_R_DT.JPG,smartom,smartom:SMITA00040,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00041_R_DT.JPG,smartom,smartom:SMITA00041,0,train
@@ -106,6 +107,7 @@ smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00105_R_DT.jp
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00106_R_DT.jpeg,smartom,smartom:SMITA00106,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00107_R_DT.jpeg,smartom,smartom:SMITA00107,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00108_R_DT.jpg,smartom,smartom:SMITA00108,0,train
+smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00109_R_DT.jpg,smartom,smartom:SMITA00109,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00110_R_DT.jpeg,smartom,smartom:SMITA00110,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00111_R_DT.jpg,smartom,smartom:SMITA00111,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00112_R_DT.jpeg,smartom,smartom:SMITA00112,0,train
@@ -182,6 +184,7 @@ smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00199_R_DT.jp
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00202_R_DT.jpg,smartom,smartom:SMITA00202,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00203_R_DT.jpeg,smartom,smartom:SMITA00203,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00204_R_DT.jpg,smartom,smartom:SMITA00204,0,train
+smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00205_R_DT.jpeg,smartom,smartom:SMITA00205,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00206_R_DT.jpg,smartom,smartom:SMITA00206,0,test
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00207_R_DT.jpg,smartom,smartom:SMITA00207,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00210_R_DT.jpeg,smartom,smartom:SMITA00210,0,train
@@ -232,7 +235,7 @@ smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00273_W_DT.jp
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00274_W_DT.jpg,smartom,smartom:SMITA00274,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00275_W_DT.jpg,smartom,smartom:SMITA00275,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00276_W_DT.jpg,smartom,smartom:SMITA00276,0,train
-smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00277_W_DT.jpeg,smartom,smartom:SMITA00277,0,val
+smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00277_W_DT.jpeg,smartom,smartom:SMITA00277,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00278_W_DT.jpeg,smartom,smartom:SMITA00278,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00281_W_DT.jpeg,smartom,smartom:SMITA00281,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00283_R_DT.jpg,smartom,smartom:SMITA00283,0,train
@@ -254,7 +257,7 @@ smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00298_R_DT.jp
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00299_R_DT.jpeg,smartom,smartom:SMITA00299,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00300_R_DT.jpeg,smartom,smartom:SMITA00300,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00301_R_DT.jpeg,smartom,smartom:SMITA00301,0,train
-smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00303_R_DT.jpeg,smartom,smartom:SMITA00303,0,train
+smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00303_R_DT.jpeg,smartom,smartom:SMITA00303,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00304_R_DT.jpeg,smartom,smartom:SMITA00304,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00305_R_DT.jpeg,smartom,smartom:SMITA00305,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00306_R_DT.jpg,smartom,smartom:SMITA00306,0,test
@@ -262,6 +265,7 @@ smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00307_R_DT.jp
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00308_R_DT.jpg,smartom,smartom:SMITA00308,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00309_R_DT.jpg,smartom,smartom:SMITA00309,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00310_R_DT.jpg,smartom,smartom:SMITA00310,0,train
+smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00311_R_DT.jpg,smartom,smartom:SMITA00311,0,test
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00313_R_DT.jpg,smartom,smartom:SMITA00313,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00314_R_DT.jpg,smartom,smartom:SMITA00314,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/01. Dorsal tongue/SMITA00315_R_DT.jpg,smartom,smartom:SMITA00315,0,train
@@ -318,14 +322,14 @@ smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00014_R_VT.J
 smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00014_W_VT.jpeg,smartom,smartom:SMITA00014,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00015_R_VT.JPG,smartom,smartom:SMITA00015,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00015_W_VT.jpeg,smartom,smartom:SMITA00015,0,val
-smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00016_R_VT.JPG,smartom,smartom:SMITA00016,0,test
-smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00016_W_VT.jpg,smartom,smartom:SMITA00016,0,test
+smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00016_R_VT.JPG,smartom,smartom:SMITA00016,0,val
+smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00016_W_VT.jpg,smartom,smartom:SMITA00016,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00017_R_VT.JPG,smartom,smartom:SMITA00017,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00017_W_VT.jpg,smartom,smartom:SMITA00017,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00018_R_VT.JPG,smartom,smartom:SMITA00018,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00018_W_VT.jpg,smartom,smartom:SMITA00018,0,train
-smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00019_R_VT.JPG,smartom,smartom:SMITA00019,0,test
-smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00019_W_VT.jpg,smartom,smartom:SMITA00019,0,test
+smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00019_R_VT.JPG,smartom,smartom:SMITA00019,0,val
+smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00019_W_VT.jpg,smartom,smartom:SMITA00019,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00020_R_VT.JPG,smartom,smartom:SMITA00020,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00020_W_VT.jpg,smartom,smartom:SMITA00020,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00021_R_VT.JPG,smartom,smartom:SMITA00021,0,train
@@ -548,7 +552,7 @@ smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00298_R_VT.j
 smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00299_R_VT.jpeg,smartom,smartom:SMITA00299,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00300_R_VT.jpeg,smartom,smartom:SMITA00300,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00301_R_VT.jpeg,smartom,smartom:SMITA00301,0,train
-smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00303_R_VT.jpeg,smartom,smartom:SMITA00303,0,train
+smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00303_R_VT.jpeg,smartom,smartom:SMITA00303,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00304_R_VT.jpeg,smartom,smartom:SMITA00304,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00305_R_VT.jpeg,smartom,smartom:SMITA00305,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00306_R_VT.jpg,smartom,smartom:SMITA00306,0,test
@@ -557,6 +561,7 @@ smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00308_R_VT.j
 smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00309_R_VT.jpg,smartom,smartom:SMITA00309,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00310_R_VT.jpg,smartom,smartom:SMITA00310,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00311_R_VT.jpg,smartom,smartom:SMITA00311,0,test
+smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00313_R_VT.jpg,smartom,smartom:SMITA00313,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00314_R__VT.jpg,smartom,smartom:SMITA00314,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00315_R_VT.jpg,smartom,smartom:SMITA00315,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/02. Ventral tongue/SMITA00316_R_VT.jpg,smartom,smartom:SMITA00316,0,train
@@ -773,7 +778,7 @@ smartom/SMART-OM/01. Normal/01. Unannotated/03. Left buccal mucosa/SMITA00299_R_
 smartom/SMART-OM/01. Normal/01. Unannotated/03. Left buccal mucosa/SMITA00300_R_LB.jpeg,smartom,smartom:SMITA00300,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/03. Left buccal mucosa/SMITA00301_R_LB.jpeg,smartom,smartom:SMITA00301,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/03. Left buccal mucosa/SMITA00302_R_LB.jpeg,smartom,smartom:SMITA00302,0,train
-smartom/SMART-OM/01. Normal/01. Unannotated/03. Left buccal mucosa/SMITA00303_R_LB.jpeg,smartom,smartom:SMITA00303,0,train
+smartom/SMART-OM/01. Normal/01. Unannotated/03. Left buccal mucosa/SMITA00303_R_LB.jpeg,smartom,smartom:SMITA00303,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/03. Left buccal mucosa/SMITA00305_R_LB.jpeg,smartom,smartom:SMITA00305,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/03. Left buccal mucosa/SMITA00306_R_LB.jpg,smartom,smartom:SMITA00306,0,test
 smartom/SMART-OM/01. Normal/01. Unannotated/03. Left buccal mucosa/SMITA00308_R_LB.jpg,smartom,smartom:SMITA00308,0,train
@@ -824,7 +829,7 @@ smartom/SMART-OM/01. Normal/01. Unannotated/04. Right buccal mucosa/SMITA00013_R
 smartom/SMART-OM/01. Normal/01. Unannotated/04. Right buccal mucosa/SMITA00014_R_RB.JPG,smartom,smartom:SMITA00014,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/04. Right buccal mucosa/SMITA00015_R_RB.JPG,smartom,smartom:SMITA00015,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/04. Right buccal mucosa/SMITA00015_W_RB.jpeg,smartom,smartom:SMITA00015,0,val
-smartom/SMART-OM/01. Normal/01. Unannotated/04. Right buccal mucosa/SMITA00016_R_RB.JPG,smartom,smartom:SMITA00016,0,test
+smartom/SMART-OM/01. Normal/01. Unannotated/04. Right buccal mucosa/SMITA00016_R_RB.JPG,smartom,smartom:SMITA00016,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/04. Right buccal mucosa/SMITA00017_R_RB.JPG,smartom,smartom:SMITA00017,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/04. Right buccal mucosa/SMITA00018_R_RB.JPG,smartom,smartom:SMITA00018,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/04. Right buccal mucosa/SMITA00020_R_RB.JPG,smartom,smartom:SMITA00020,0,val
@@ -1002,7 +1007,7 @@ smartom/SMART-OM/01. Normal/01. Unannotated/04. Right buccal mucosa/SMITA00299_R
 smartom/SMART-OM/01. Normal/01. Unannotated/04. Right buccal mucosa/SMITA00300_R_RB.jpeg,smartom,smartom:SMITA00300,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/04. Right buccal mucosa/SMITA00301_R_RB.jpeg,smartom,smartom:SMITA00301,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/04. Right buccal mucosa/SMITA00302_R_RB.jpeg,smartom,smartom:SMITA00302,0,train
-smartom/SMART-OM/01. Normal/01. Unannotated/04. Right buccal mucosa/SMITA00303_R_RB.jpeg,smartom,smartom:SMITA00303,0,train
+smartom/SMART-OM/01. Normal/01. Unannotated/04. Right buccal mucosa/SMITA00303_R_RB.jpeg,smartom,smartom:SMITA00303,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/04. Right buccal mucosa/SMITA00304_R_RB.jpeg,smartom,smartom:SMITA00304,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/04. Right buccal mucosa/SMITA00305_R_RB.jpeg,smartom,smartom:SMITA00305,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/04. Right buccal mucosa/SMITA00306_R_RB.jpg,smartom,smartom:SMITA00306,0,test
@@ -1055,11 +1060,11 @@ smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00014_R_UL.JPG,sm
 smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00014_W_UL.jpeg,smartom,smartom:SMITA00014,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00015_R_UL.JPG,smartom,smartom:SMITA00015,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00015_W_UL.jpeg,smartom,smartom:SMITA00015,0,val
-smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00016_R_UL.JPG,smartom,smartom:SMITA00016,0,test
-smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00016_W_UL.jpg,smartom,smartom:SMITA00016,0,test
+smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00016_R_UL.JPG,smartom,smartom:SMITA00016,0,val
+smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00016_W_UL.jpg,smartom,smartom:SMITA00016,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00017_W_UL.jpg,smartom,smartom:SMITA00017,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00018_R_UL.JPG,smartom,smartom:SMITA00018,0,train
-smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00019_W_UL.jpg,smartom,smartom:SMITA00019,0,test
+smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00019_W_UL.jpg,smartom,smartom:SMITA00019,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00020_R_UL.JPG,smartom,smartom:SMITA00020,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00020_W_UL.jpg,smartom,smartom:SMITA00020,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00021_R_UL.JPG,smartom,smartom:SMITA00021,0,train
@@ -1253,7 +1258,7 @@ smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00272_W_UL.jpeg,s
 smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00274_W_UL.jpg,smartom,smartom:SMITA00274,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00275_W_UL.jpg,smartom,smartom:SMITA00275,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00276_W_UL.jpg,smartom,smartom:SMITA00276,0,train
-smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00277_W_UL.jpeg,smartom,smartom:SMITA00277,0,val
+smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00277_W_UL.jpeg,smartom,smartom:SMITA00277,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00283_R_UL.jpg,smartom,smartom:SMITA00283,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00284_R_UL.jpg,smartom,smartom:SMITA00284,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00285_R_UL.jpeg,smartom,smartom:SMITA00285,0,val
@@ -1273,7 +1278,7 @@ smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00298_R_UL.jpeg,s
 smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00299_R_UL.jpeg,smartom,smartom:SMITA00299,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00300_R_UL.jpeg,smartom,smartom:SMITA00300,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00301_R_UL.jpeg,smartom,smartom:SMITA00301,0,train
-smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00303_R_UL.jpeg,smartom,smartom:SMITA00303,0,train
+smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00303_R_UL.jpeg,smartom,smartom:SMITA00303,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00305_R_UL.jpeg,smartom,smartom:SMITA00305,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00306_R_UL.jpg,smartom,smartom:SMITA00306,0,test
 smartom/SMART-OM/01. Normal/01. Unannotated/05. Upper lip/SMITA00308_R_UL.jpg,smartom,smartom:SMITA00308,0,train
@@ -1326,11 +1331,11 @@ smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00012_R_LL.JPG,sm
 smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00013_R_LL.JPG,smartom,smartom:SMITA00013,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00014_W_LL.jpeg,smartom,smartom:SMITA00014,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00015_R_LL.JPG,smartom,smartom:SMITA00015,0,val
-smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00016_R_LL.JPG,smartom,smartom:SMITA00016,0,test
-smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00016_W_LL.jpg,smartom,smartom:SMITA00016,0,test
+smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00016_R_LL.JPG,smartom,smartom:SMITA00016,0,val
+smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00016_W_LL.jpg,smartom,smartom:SMITA00016,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00017_W_LL.jpg,smartom,smartom:SMITA00017,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00018_W_LL.jpg,smartom,smartom:SMITA00018,0,train
-smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00019_W_LL.jpg,smartom,smartom:SMITA00019,0,test
+smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00019_W_LL.jpg,smartom,smartom:SMITA00019,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00020_R_LL.JPG,smartom,smartom:SMITA00020,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00020_W_LL.jpg,smartom,smartom:SMITA00020,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00021_R_LL.JPG,smartom,smartom:SMITA00021,0,train
@@ -1548,8 +1553,8 @@ smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00298_R_LL.jpeg,s
 smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00299_R_LL.jpeg,smartom,smartom:SMITA00299,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00300_R_LL.jpeg,smartom,smartom:SMITA00300,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00301_R_LL.jpeg,smartom,smartom:SMITA00301,0,train
-smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00303_R_LL1.jpeg,smartom,smartom:SMITA00303,0,train
-smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00303_R_LL2.jpeg,smartom,smartom:SMITA00303,0,train
+smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00303_R_LL1.jpeg,smartom,smartom:SMITA00303,0,val
+smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00303_R_LL2.jpeg,smartom,smartom:SMITA00303,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00304_R_LL.jpeg,smartom,smartom:SMITA00304,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00305_R_LL.jpeg,smartom,smartom:SMITA00305,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/06. Lower lip/SMITA00306_R_LL.jpg,smartom,smartom:SMITA00306,0,test
@@ -1592,8 +1597,10 @@ smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/8 -UA.jpg,smartom,sma
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/9 - UA.jpg,smartom,smartom:n9,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00001_W_UA.jpeg,smartom,smartom:SMITA00001,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00002_W_UA.jpeg,smartom,smartom:SMITA00002,0,train
+smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00003_W_UA.jpeg,smartom,smartom:SMITA00003,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00006_R_UA.JPG,smartom,smartom:SMITA00006,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00006_W_UA.jpg,smartom,smartom:SMITA00006,0,train
+smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00007_R_UA.JPG,smartom,smartom:SMITA00007,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00007_W_UA.jpg,smartom,smartom:SMITA00007,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00008_R_UA.JPG,smartom,smartom:SMITA00008,0,test
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00009_R_UA.JPG,smartom,smartom:SMITA00009,0,train
@@ -1605,15 +1612,18 @@ smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00013_R_UA.JPG,s
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00014_R_UA.JPG,smartom,smartom:SMITA00014,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00014_W_UA.jpeg,smartom,smartom:SMITA00014,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00015_R_UA.JPG,smartom,smartom:SMITA00015,0,val
-smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00016_R_UA.JPG,smartom,smartom:SMITA00016,0,test
+smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00016_R_UA.JPG,smartom,smartom:SMITA00016,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00018_R_UA.JPG,smartom,smartom:SMITA00018,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00020_R_UA.JPG,smartom,smartom:SMITA00020,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00021_R_UA.JPG,smartom,smartom:SMITA00021,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00021_W_UA.jpeg,smartom,smartom:SMITA00021,0,train
+smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA000221_R_UA.jpeg,smartom,smartom:SMITA000221,0,test
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA000230_R_UA.jpeg,smartom,smartom:SMITA000230,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA000232_R_UA.jpeg,smartom,smartom:SMITA000232,0,val
+smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA000233_R_UA.jpeg,smartom,smartom:SMITA000233,0,test
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA000234_R_UA.jpeg,smartom,smartom:SMITA000234,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA000235_R_UA.jpeg,smartom,smartom:SMITA000235,0,val
+smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA000237_R_UA.jpeg,smartom,smartom:SMITA000237,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA000239_R_UA.jpeg,smartom,smartom:SMITA000239,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00024-1_R_UA.JPG,smartom,smartom:SMITA00024,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA000241_R_UA.jpeg,smartom,smartom:SMITA000241,0,train
@@ -1628,6 +1638,7 @@ smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00027-1_R_UA.JPG
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00027_R_UA.JPG,smartom,smartom:SMITA00027,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00028_R_UA.JPG,smartom,smartom:SMITA00028,0,test
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00034_R_UA.JPG,smartom,smartom:SMITA00034,0,test
+smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00035_R_UA.JPG,smartom,smartom:SMITA00035,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00036_R_UA.JPG,smartom,smartom:SMITA00036,0,test
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00037_R_UA.JPG,smartom,smartom:SMITA00037,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00038_R_UA.JPG,smartom,smartom:SMITA00038,0,train
@@ -1710,7 +1721,10 @@ smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00155_R_UA.jpg,s
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00156_R_UA.jpg,smartom,smartom:SMITA00156,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00157_R_UA.jpeg,smartom,smartom:SMITA00157,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00158_R_UA.jpeg,smartom,smartom:SMITA00158,0,val
+smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00159_R_UA.jpeg,smartom,smartom:SMITA00159,0,test
+smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00160_R_UA.jpeg,smartom,smartom:SMITA00160,0,test
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00161_R_UA.jpg,smartom,smartom:SMITA00161,0,train
+smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00162_R_UA.jpeg,smartom,smartom:SMITA00162,0,test
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00163_R_UA.jpg,smartom,smartom:SMITA00163,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00164_R_UA.jpeg,smartom,smartom:SMITA00164,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00165_R_UA.jpg,smartom,smartom:SMITA00165,0,train
@@ -1753,6 +1767,7 @@ smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00215_W_UA.jpeg,
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00216_W_UA.jpeg,smartom,smartom:SMITA00216,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00217_W_UA.jpeg,smartom,smartom:SMITA00217,0,test
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00218_W_UA.jpeg,smartom,smartom:SMITA00218,0,train
+smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00219_W_UA.jpeg,smartom,smartom:SMITA00219,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00220_W_UA.jpeg,smartom,smartom:SMITA00220,0,test
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00221_W_UA.jpeg,smartom,smartom:SMITA00221,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00222_W_UA.jpeg,smartom,smartom:SMITA00222,0,val
@@ -1794,13 +1809,14 @@ smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00292_R_UA.jpeg,
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00293_R_UA.jpeg,smartom,smartom:SMITA00293,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00294_R_UA.jpeg,smartom,smartom:SMITA00294,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00295_R_UA.jpeg,smartom,smartom:SMITA00295,0,train
+smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00296_R_UA.jpeg,smartom,smartom:SMITA00296,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00297_R_UA.jpeg,smartom,smartom:SMITA00297,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00298_R_UA.jpeg,smartom,smartom:SMITA00298,0,test
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00299_R_UA.jpeg,smartom,smartom:SMITA00299,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00300_R_UA.jpeg,smartom,smartom:SMITA00300,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00301_R_UA.jpeg,smartom,smartom:SMITA00301,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00302_R_UA.jpeg,smartom,smartom:SMITA00302,0,train
-smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00303_R_UA.jpeg,smartom,smartom:SMITA00303,0,train
+smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00303_R_UA.jpeg,smartom,smartom:SMITA00303,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00304_R_UA.jpeg,smartom,smartom:SMITA00304,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00305_R_UA.jpeg,smartom,smartom:SMITA00305,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00306_R_UA.jpg,smartom,smartom:SMITA00306,0,test
@@ -1821,6 +1837,7 @@ smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00322_R_UA.jpg,s
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00323_R_UA.jpg,smartom,smartom:SMITA00323,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00324_R_UA.jpg,smartom,smartom:SMITA00324,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00325_R_UA.jpg,smartom,smartom:SMITA00325,0,test
+smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00326_R_UA.jpg,smartom,smartom:SMITA00326,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00327_R_UA.jpg,smartom,smartom:SMITA00327,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00329_R_UA.jpg,smartom,smartom:SMITA00329,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/07. Upper arch/SMITA00330_R_UA.jpg,smartom,smartom:SMITA00330,0,test
@@ -1862,7 +1879,7 @@ smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00014_R_LA.JPG,s
 smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00014_W_LA.jpeg,smartom,smartom:SMITA00014,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00015_R_LA.JPG,smartom,smartom:SMITA00015,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00015_W_LA.jpeg,smartom,smartom:SMITA00015,0,val
-smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00016_R_LA.JPG,smartom,smartom:SMITA00016,0,test
+smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00016_R_LA.JPG,smartom,smartom:SMITA00016,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00017_W_LA.jpg,smartom,smartom:SMITA00017,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00018_R_LA.JPG,smartom,smartom:SMITA00018,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00020_R_LA.JPG,smartom,smartom:SMITA00020,0,val
@@ -2057,6 +2074,7 @@ smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00257_R_LA.jpeg,
 smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00258_R_LA.jpeg,smartom,smartom:SMITA00258,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00259_R_LA.jpeg,smartom,smartom:SMITA00259,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00260_R_LA.jpeg,smartom,smartom:SMITA00260,0,train
+smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00261_R_LA.jpeg,smartom,smartom:SMITA00261,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00262_R_LA.jpeg,smartom,smartom:SMITA00262,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00263_R_LA.jpeg,smartom,smartom:SMITA00263,0,test
 smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00264_R_LA.jpeg,smartom,smartom:SMITA00264,0,train
@@ -2086,7 +2104,7 @@ smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00299_R_LA.jpeg,
 smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00300_R_LA.jpeg,smartom,smartom:SMITA00300,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00301_R_LA.jpeg,smartom,smartom:SMITA00301,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00302_R_LA.jpeg,smartom,smartom:SMITA00302,0,train
-smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00303_R_LA.jpeg,smartom,smartom:SMITA00303,0,train
+smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00303_R_LA.jpeg,smartom,smartom:SMITA00303,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00304_R_LA.jpeg,smartom,smartom:SMITA00304,0,train
 smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00305_R_LA.jpeg,smartom,smartom:SMITA00305,0,val
 smartom/SMART-OM/01. Normal/01. Unannotated/08. Lower arch/SMITA00306_R_LA.jpg,smartom,smartom:SMITA00306,0,test
@@ -2154,7 +2172,7 @@ smartom/SMART-OM/02. Variation from normal/01. Unannotated/01. Dorsal tongue/SMI
 smartom/SMART-OM/02. Variation from normal/01. Unannotated/01. Dorsal tongue/SMITA00279_W_DT.jpeg,smartom,smartom:SMITA00279,0,train
 smartom/SMART-OM/02. Variation from normal/01. Unannotated/01. Dorsal tongue/SMITA00282_W_DT.jpeg,smartom,smartom:SMITA00282,0,train
 smartom/SMART-OM/02. Variation from normal/01. Unannotated/01. Dorsal tongue/SMITA00302_R_DT.jpeg,smartom,smartom:SMITA00302,0,train
-smartom/SMART-OM/02. Variation from normal/01. Unannotated/01. Dorsal tongue/SMITA00303_R_DT.jpeg,smartom,smartom:SMITA00303,0,train
+smartom/SMART-OM/02. Variation from normal/01. Unannotated/01. Dorsal tongue/SMITA00303_R_DT.jpeg,smartom,smartom:SMITA00303,0,val
 smartom/SMART-OM/02. Variation from normal/01. Unannotated/02. Ventral tongue/SMITA00023_R_VT1.JPG,smartom,smartom:SMITA00023,0,train
 smartom/SMART-OM/02. Variation from normal/01. Unannotated/02. Ventral tongue/SMITA00023_R_VT2.JPG,smartom,smartom:SMITA00023,0,train
 smartom/SMART-OM/02. Variation from normal/01. Unannotated/02. Ventral tongue/SMITA00023_R_VT3.JPG,smartom,smartom:SMITA00023,0,train
@@ -2319,11 +2337,11 @@ smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00012_W_LB
 smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00012_W_LB3.jpeg,smartom,smartom:SMITA00012,1,train
 smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00014_W_LB1.jpeg,smartom,smartom:SMITA00014,1,train
 smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00014_W_LB2.jpeg,smartom,smartom:SMITA00014,1,train
-smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00016_R_LB.JPG,smartom,smartom:SMITA00016,1,test
-smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00016_W_LB.jpg,smartom,smartom:SMITA00016,1,test
+smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00016_R_LB.JPG,smartom,smartom:SMITA00016,1,val
+smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00016_W_LB.jpg,smartom,smartom:SMITA00016,1,val
 smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00018_W_LB.jpeg,smartom,smartom:SMITA00018,1,train
-smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00019_R_LB.JPG,smartom,smartom:SMITA00019,1,test
-smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00019_W_LB.jpeg,smartom,smartom:SMITA00019,1,test
+smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00019_R_LB.JPG,smartom,smartom:SMITA00019,1,val
+smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00019_W_LB.jpeg,smartom,smartom:SMITA00019,1,val
 smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00021_W_LB.jpeg,smartom,smartom:SMITA00021,1,train
 smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00022_R_LB.jpg,smartom,smartom:SMITA00022,1,test
 smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA000233_R_LB1.jpeg,smartom,smartom:SMITA000233,1,test
@@ -2360,7 +2378,7 @@ smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00272_W_LB
 smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00273_W_LB.jpg,smartom,smartom:SMITA00273,1,test
 smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00274_W_LB.jpg,smartom,smartom:SMITA00274,1,train
 smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00276_W_LB.jpg,smartom,smartom:SMITA00276,1,train
-smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00277_W_LB.jpeg,smartom,smartom:SMITA00277,1,val
+smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00277_W_LB.jpeg,smartom,smartom:SMITA00277,1,train
 smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00279_W_LB.jpeg,smartom,smartom:SMITA00279,1,train
 smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00280_W_LB.jpeg,smartom,smartom:SMITA00280,1,val
 smartom/SMART-OM/03. OPMD/01. Unannotated/03. Left buccal mucosa/SMITA00281_W_LB.jpeg,smartom,smartom:SMITA00281,1,train
@@ -2372,11 +2390,11 @@ smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00004_W_R
 smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00006_W_RB.jpg,smartom,smartom:SMITA00006,1,train
 smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00007_W_RB.jpg,smartom,smartom:SMITA00007,1,val
 smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00014_W_RB.jpeg,smartom,smartom:SMITA00014,1,train
-smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00016_W_RB.jpg,smartom,smartom:SMITA00016,1,test
+smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00016_W_RB.jpg,smartom,smartom:SMITA00016,1,val
 smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00017_W_RB.jpg,smartom,smartom:SMITA00017,1,train
 smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00018_W-RB.jpeg,smartom,smartom:SMITA00018,1,train
-smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00019_R_RB.JPG,smartom,smartom:SMITA00019,1,test
-smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00019_W_RB.jpeg,smartom,smartom:SMITA00019,1,test
+smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00019_R_RB.JPG,smartom,smartom:SMITA00019,1,val
+smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00019_W_RB.jpeg,smartom,smartom:SMITA00019,1,val
 smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00021_W_RB.jpeg,smartom,smartom:SMITA00021,1,train
 smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00022_R_RB.jpg,smartom,smartom:SMITA00022,1,test
 smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00034_R_RB1.JPG,smartom,smartom:SMITA00034,1,test
@@ -2414,7 +2432,7 @@ smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00271_W_R
 smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00272_W_RB.jpeg,smartom,smartom:SMITA00272,1,train
 smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00273_W_RB.jpg,smartom,smartom:SMITA00273,1,test
 smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00274_W_RB.jpg,smartom,smartom:SMITA00274,1,train
-smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00277_W_RB.jpeg,smartom,smartom:SMITA00277,1,val
+smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00277_W_RB.jpeg,smartom,smartom:SMITA00277,1,train
 smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00279_W_RB.jpeg,smartom,smartom:SMITA00279,1,train
 smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00280_W_RB.jpeg,smartom,smartom:SMITA00280,1,val
 smartom/SMART-OM/03. OPMD/01. Unannotated/04. Right buccal mucosa/SMITA00281_W_RB.jpeg,smartom,smartom:SMITA00281,1,train
@@ -2426,17 +2444,24 @@ smartom/SMART-OM/03. OPMD/01. Unannotated/06. Lower lip/SMITA00217_W_LL1.jpeg,sm
 smartom/SMART-OM/03. OPMD/01. Unannotated/06. Lower lip/SMITA00217_W_LL2.jpeg,smartom,smartom:SMITA00217,1,test
 smartom/SMART-OM/03. OPMD/01. Unannotated/06. Lower lip/SMITA00238_R_LL.jpg,smartom,smartom:SMITA00238,1,train
 smartom/SMART-OM/03. OPMD/01. Unannotated/06. Lower lip/SMITA00272_W_LL.jpeg,smartom,smartom:SMITA00272,1,train
-smartom/SMART-OM/03. OPMD/01. Unannotated/06. Lower lip/SMITA00303_R_LL1.jpeg,smartom,smartom:SMITA00303,1,train
-smartom/SMART-OM/03. OPMD/01. Unannotated/06. Lower lip/SMITA00303_R_LL2.jpeg,smartom,smartom:SMITA00303,1,train
+smartom/SMART-OM/03. OPMD/01. Unannotated/06. Lower lip/SMITA00303_R_LL1.jpeg,smartom,smartom:SMITA00303,1,val
+smartom/SMART-OM/03. OPMD/01. Unannotated/06. Lower lip/SMITA00303_R_LL2.jpeg,smartom,smartom:SMITA00303,1,val
 smartom/SMART-OM/03. OPMD/01. Unannotated/07. Upper arch/SMITA00187_W_UA.jpeg,smartom,smartom:SMITA00187,1,train
 smartom/SMART-OM/03. OPMD/01. Unannotated/07. Upper arch/SMITA00268_W_UA.jpg,smartom,smartom:SMITA00268,1,train
+smartom/SMART-OM/04. Oral Cancer/01. Unannotated/02. Ventral tongue/6026.jpg,smartom,smartom:dup2449,1,val
+smartom/SMART-OM/04. Oral Cancer/01. Unannotated/02. Ventral tongue/6765.jpg,smartom,smartom:dup2450,1,train
+smartom/SMART-OM/04. Oral Cancer/01. Unannotated/02. Ventral tongue/6766.jpg,smartom,smartom:dup2451,1,train
+smartom/SMART-OM/04. Oral Cancer/01. Unannotated/02. Ventral tongue/7059.jpeg,smartom,smartom:dup2452,1,train
 smartom/SMART-OM/04. Oral Cancer/01. Unannotated/02. Ventral tongue/Ca 10.JPEG,smartom,smartom:dup2453,1,train
-smartom/SMART-OM/04. Oral Cancer/01. Unannotated/02. Ventral tongue/Ca3.png,smartom,smartom:dup2457,1,val
-smartom/SMART-OM/04. Oral Cancer/01. Unannotated/03. Left buccal mucosa/6098.jpg,smartom,smartom:dup2458,1,val
+smartom/SMART-OM/04. Oral Cancer/01. Unannotated/02. Ventral tongue/Ca 2.jpg,smartom,smartom:dup2454,1,test
+smartom/SMART-OM/04. Oral Cancer/01. Unannotated/02. Ventral tongue/Ca 2.png,smartom,smartom:dup2455,1,train
+smartom/SMART-OM/04. Oral Cancer/01. Unannotated/02. Ventral tongue/Ca 7.png,smartom,smartom:dup2456,1,train
+smartom/SMART-OM/04. Oral Cancer/01. Unannotated/02. Ventral tongue/Ca3.png,smartom,smartom:dup2457,1,train
+smartom/SMART-OM/04. Oral Cancer/01. Unannotated/03. Left buccal mucosa/6098.jpg,smartom,smartom:dup2458,1,test
 smartom/SMART-OM/04. Oral Cancer/01. Unannotated/03. Left buccal mucosa/Ca 9.png,smartom,smartom:dup2459,1,train
-smartom/SMART-OM/04. Oral Cancer/01. Unannotated/04. Right buccal mucosa/6095.jpg,smartom,smartom:dup2460,1,train
-smartom/SMART-OM/04. Oral Cancer/01. Unannotated/04. Right buccal mucosa/6099.jpg,smartom,smartom:dup2461,1,train
-smartom/SMART-OM/04. Oral Cancer/01. Unannotated/04. Right buccal mucosa/Ca 4.png,smartom,smartom:dup2462,1,val
+smartom/SMART-OM/04. Oral Cancer/01. Unannotated/04. Right buccal mucosa/6095.jpg,smartom,smartom:dup2460,1,test
+smartom/SMART-OM/04. Oral Cancer/01. Unannotated/04. Right buccal mucosa/6099.jpg,smartom,smartom:dup2461,1,val
+smartom/SMART-OM/04. Oral Cancer/01. Unannotated/04. Right buccal mucosa/Ca 4.png,smartom,smartom:dup2462,1,train
 smartom/SMART-OM/04. Oral Cancer/01. Unannotated/04. Right buccal mucosa/Ca 8.png,smartom,smartom:dup2463,1,train
 smartom/SMART-OM/04. Oral Cancer/01. Unannotated/06. Lower lip/7252.jpeg,smartom,smartom:dup2464,1,train
 smartom/SMART-OM/04. Oral Cancer/01. Unannotated/07. Upper arch/Ca 1.JPG,smartom,smartom:dup2465,1,train
@@ -4438,7 +4463,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. N
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA06111/UNANNOTATED/SMITA06111_KSR_DT.jpg,code,code:SMITA06111,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA06111/UNANNOTATED/SMITA06111_KSR_LA.jpg,code,code:SMITA06111,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA06111/UNANNOTATED/SMITA06111_KSR_LL.jpg,code,code:SMITA06111,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA06111/UNANNOTATED/SMITA06111_KSR_UA.jpg,code,code:SMITA06111,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA06111/UNANNOTATED/SMITA06111_KSR_UL.jpg,code,code:SMITA06111,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA06111/UNANNOTATED/SMITA06111_KSR_VT.jpg,code,code:SMITA06111,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA06113/UNANNOTATED/SMITA06113_KSR_DT.jpg,code,code:SMITA06113,0,test
@@ -4559,7 +4583,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. N
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA06257/UNANNOTATED/SMITA06257_KSR_UA.jpg,code,code:SMITA06257,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA06257/UNANNOTATED/SMITA06257_KSR_UL.jpg,code,code:SMITA06257,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA06257/UNANNOTATED/SMITA06257_KSR_VT.jpg,code,code:SMITA06257,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA06271/UNANNOTATED/SMITA06271_KSR_DT.jpg,code,code:SMITA06271,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA06271/UNANNOTATED/SMITA06271_KSR_LA.jpg,code,code:SMITA06271,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA06271/UNANNOTATED/SMITA06271_KSR_LB.jpg,code,code:SMITA06271,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA06271/UNANNOTATED/SMITA06271_KSR_LL.jpg,code,code:SMITA06271,0,test
@@ -5253,7 +5276,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. N
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07230/UNANNOTATED/SMITA07230_KSR_LB.jpg,code,code:SMITA07230,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07230/UNANNOTATED/SMITA07230_KSR_LL.jpg,code,code:SMITA07230,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07230/UNANNOTATED/SMITA07230_KSR_RB.jpg,code,code:SMITA07230,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07230/UNANNOTATED/SMITA07230_KSR_UA.jpg,code,code:SMITA07230,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07230/UNANNOTATED/SMITA07230_KSR_UL.jpg,code,code:SMITA07230,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07230/UNANNOTATED/SMITA07230_KSR_VT.JPG,code,code:SMITA07230,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07231/UNANNOTATED/SMITA07231_KSR_DT.jpg,code,code:SMITA07231,0,test
@@ -5346,7 +5368,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. N
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07439/UNANNOTATED IMAGES/SMITA07439_KSR_LA.jpg,code,code:SMITA07439,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07439/UNANNOTATED IMAGES/SMITA07439_KSR_LB.jpg,code,code:SMITA07439,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07439/UNANNOTATED IMAGES/SMITA07439_KSR_RB.jpg,code,code:SMITA07439,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07439/UNANNOTATED IMAGES/SMITA07439_KSR_UA.jpg,code,code:SMITA07439,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07439/UNANNOTATED IMAGES/SMITA07439_KSR_UL.jpg,code,code:SMITA07439,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07439/UNANNOTATED IMAGES/SMITA07439_KSR_VT.jpg,code,code:SMITA07439,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07461/UNANNOTATED IMAGES/SMITA07461_KSR_DT.jpg,code,code:SMITA07461,0,test
@@ -5547,7 +5568,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. N
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07657/UNANNOTATED IMAGES/SMITA07657_KSR_LB.jpg,code,code:SMITA07657,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07657/UNANNOTATED IMAGES/SMITA07657_KSR_LL.jpg,code,code:SMITA07657,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07657/UNANNOTATED IMAGES/SMITA07657_KSR_RB.jpg,code,code:SMITA07657,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07657/UNANNOTATED IMAGES/SMITA07657_KSR_UA.jpg,code,code:SMITA07657,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07657/UNANNOTATED IMAGES/SMITA07657_KSR_UL.jpg,code,code:SMITA07657,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07657/UNANNOTATED IMAGES/SMITA07657_KSR_VT.jpg,code,code:SMITA07657,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07662/UNANNOTATED IMAGES/SMITA07662_KSR_DT.jpg,code,code:SMITA07662,0,test
@@ -5598,7 +5618,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. N
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07750/UNANNOTATED IMAGES/SMITA07750_KSR_LB.jpg,code,code:SMITA07750,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07750/UNANNOTATED IMAGES/SMITA07750_KSR_LL.jpg,code,code:SMITA07750,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07750/UNANNOTATED IMAGES/SMITA07750_KSR_RB.jpg,code,code:SMITA07750,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07750/UNANNOTATED IMAGES/SMITA07750_KSR_UA.jpg,code,code:SMITA07750,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07750/UNANNOTATED IMAGES/SMITA07750_KSR_UL.jpg,code,code:SMITA07750,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07750/UNANNOTATED IMAGES/SMITA07750_KSR_VT.jpg,code,code:SMITA07750,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07751/UNANNOTATED IMAGES/SMITA07751_KSR_DT.jpg,code,code:SMITA07751,0,test
@@ -5692,7 +5711,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. N
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07986/unannotated/SMITA07986_KSR_LB.jpg,code,code:SMITA07986,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07986/unannotated/SMITA07986_KSR_LL.jpg,code,code:SMITA07986,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07986/unannotated/SMITA07986_KSR_RB.jpg,code,code:SMITA07986,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07986/unannotated/SMITA07986_KSR_UA.jpg,code,code:SMITA07986,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07986/unannotated/SMITA07986_KSR_UL.jpg,code,code:SMITA07986,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07986/unannotated/SMITA07986_KSR_VT.jpg,code,code:SMITA07986,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA07987/unannotated/SMITA07987_KSR_DT.jpg,code,code:SMITA07987,0,test
@@ -5808,7 +5826,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. N
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA08274/UNANNOTATED/SMITA08274_KSR_UA.jpg,code,code:SMITA08274,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA08274/UNANNOTATED/SMITA08274_KSR_UL.jpg,code,code:SMITA08274,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA08274/UNANNOTATED/SMITA08274_KSR_VT.jpg,code,code:SMITA08274,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA08474/UNANNOTATED/SMITA08474_KSR_DT.jpg,code,code:SMITA08474,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA08474/UNANNOTATED/SMITA08474_KSR_LA.jpg,code,code:SMITA08474,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA08474/UNANNOTATED/SMITA08474_KSR_LB.jpg,code,code:SMITA08474,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA08474/UNANNOTATED/SMITA08474_KSR_LL.jpg,code,code:SMITA08474,0,test
@@ -5853,7 +5870,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. N
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA08493/UNANNOTATED/SMITA08493_KSR_LB.jpg,code,code:SMITA08493,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA08493/UNANNOTATED/SMITA08493_KSR_LL.jpg,code,code:SMITA08493,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA08493/UNANNOTATED/SMITA08493_KSR_RB.jpg,code,code:SMITA08493,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA08493/UNANNOTATED/SMITA08493_KSR_UA.jpg,code,code:SMITA08493,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA08493/UNANNOTATED/SMITA08493_KSR_UL.jpg,code,code:SMITA08493,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA08493/UNANNOTATED/SMITA08493_KSR_VT.jpg,code,code:SMITA08493,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA08494/UNANNOTATED/SMITA08494_KSR_DT.jpg,code,code:SMITA08494,0,test
@@ -6179,7 +6195,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. N
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA08848/UN ANNOTATED/SMITA08848_KSR_LB.jpg,code,code:SMITA08848,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA08848/UN ANNOTATED/SMITA08848_KSR_LL.jpg,code,code:SMITA08848,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA08848/UN ANNOTATED/SMITA08848_KSR_RB.jpg,code,code:SMITA08848,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA08848/UN ANNOTATED/SMITA08848_KSR_UA.jpg,code,code:SMITA08848,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA08848/UN ANNOTATED/SMITA08848_KSR_UL.jpg,code,code:SMITA08848,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA08848/UN ANNOTATED/SMITA08848_KSR_VT.jpg,code,code:SMITA08848,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA08853/UN ANNOTATED/SMITA08853_KSR_DT.jpg,code,code:SMITA08853,0,test
@@ -6636,7 +6651,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. N
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09191/UNANNOTATED IMAGES/SMITA09191_KSR_UA.jpg,code,code:SMITA09191,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09191/UNANNOTATED IMAGES/SMITA09191_KSR_UL.jpg,code,code:SMITA09191,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09191/UNANNOTATED IMAGES/SMITA09191_KSR_VT.jpg,code,code:SMITA09191,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09232/UNANNOTATED IMAGES/SMITA09232_KSR_DT.jpg,code,code:SMITA09232,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09232/UNANNOTATED IMAGES/SMITA09232_KSR_LA.jpg,code,code:SMITA09232,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09232/UNANNOTATED IMAGES/SMITA09232_KSR_LL.jpg,code,code:SMITA09232,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09232/UNANNOTATED IMAGES/SMITA09232_KSR_RB.jpg,code,code:SMITA09232,0,test
@@ -6894,7 +6908,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. N
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09492/UN ANNOTATED/SMITA09492_KSR_UA.jpg,code,code:SMITA09492,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09492/UN ANNOTATED/SMITA09492_KSR_UL.jpg,code,code:SMITA09492,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09492/UN ANNOTATED/SMITA09492_KSR_VT.jpg,code,code:SMITA09492,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09496/UN ANNOTATED/SMITA09496_KSR_DT.jpg,code,code:SMITA09496,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09496/UN ANNOTATED/SMITA09496_KSR_LA.jpg,code,code:SMITA09496,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09496/UN ANNOTATED/SMITA09496_KSR_LB.jpg,code,code:SMITA09496,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09496/UN ANNOTATED/SMITA09496_KSR_LL.jpg,code,code:SMITA09496,0,test
@@ -6987,7 +7000,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. N
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09538/UNANNOTATED/SMITA09538_KSR_UA.jpg,code,code:SMITA09538,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09538/UNANNOTATED/SMITA09538_KSR_UL.jpg,code,code:SMITA09538,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09538/UNANNOTATED/SMITA09538_KSR_VT.jpg,code,code:SMITA09538,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09540/UNANNOTATED/SMITA09540_KSR_DT.jpg,code,code:SMITA09540,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09540/UNANNOTATED/SMITA09540_KSR_LA.jpg,code,code:SMITA09540,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09540/UNANNOTATED/SMITA09540_KSR_LB.jpg,code,code:SMITA09540,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09540/UNANNOTATED/SMITA09540_KSR_LL.jpg,code,code:SMITA09540,0,test
@@ -7000,7 +7012,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. N
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09603/UNANNOTATED/SMITA09603_KSR_LB.jpg,code,code:SMITA09603,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09603/UNANNOTATED/SMITA09603_KSR_LL.jpg,code,code:SMITA09603,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09603/UNANNOTATED/SMITA09603_KSR_RB.jpg,code,code:SMITA09603,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09603/UNANNOTATED/SMITA09603_KSR_UA.jpg,code,code:SMITA09603,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09603/UNANNOTATED/SMITA09603_KSR_UL.jpg,code,code:SMITA09603,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09603/UNANNOTATED/SMITA09603_KSR_VT.jpg,code,code:SMITA09603,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09604/UNANNOTATED/SMITA09604_KSR_DT.jpg,code,code:SMITA09604,0,test
@@ -7117,7 +7128,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. N
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09637/UNANNOTATED/SMITA09637_KSR_LA.jpg,code,code:SMITA09637,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09637/UNANNOTATED/SMITA09637_KSR_LL.jpg,code,code:SMITA09637,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09637/UNANNOTATED/SMITA09637_KSR_RB.jpg,code,code:SMITA09637,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09637/UNANNOTATED/SMITA09637_KSR_UA.jpg,code,code:SMITA09637,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09637/UNANNOTATED/SMITA09637_KSR_UL.jpg,code,code:SMITA09637,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09637/UNANNOTATED/SMITA09637_KSR_VT.jpg,code,code:SMITA09637,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09638/UNANNOTATED/SMITA09638_KSR_DT.jpg,code,code:SMITA09638,0,test
@@ -7213,7 +7223,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. N
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09735/UNANNOTATED/SMITA09735_KSR_LB.JPG,code,code:SMITA09735,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09735/UNANNOTATED/SMITA09735_KSR_LL.JPG,code,code:SMITA09735,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09735/UNANNOTATED/SMITA09735_KSR_RB.JPG,code,code:SMITA09735,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09735/UNANNOTATED/SMITA09735_KSR_UA.JPG,code,code:SMITA09735,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09735/UNANNOTATED/SMITA09735_KSR_UL.JPG,code,code:SMITA09735,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09735/UNANNOTATED/SMITA09735_KSR_VT.JPG,code,code:SMITA09735,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09741/UNANNOTATED/SMITA09741_KSR_DT.JPG,code,code:SMITA09741,0,test
@@ -7269,7 +7278,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. N
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09779/UNANNOTATED/SMITA09779_KSR_LB.jpg,code,code:SMITA09779,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09779/UNANNOTATED/SMITA09779_KSR_LL.jpg,code,code:SMITA09779,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09779/UNANNOTATED/SMITA09779_KSR_RB.jpg,code,code:SMITA09779,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09779/UNANNOTATED/SMITA09779_KSR_UA.jpg,code,code:SMITA09779,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09779/UNANNOTATED/SMITA09779_KSR_UL.jpg,code,code:SMITA09779,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09779/UNANNOTATED/SMITA09779_KSR_VT.jpg,code,code:SMITA09779,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09781/UNANNOTATED/SMITA09781_KSR_DT.jpg,code,code:SMITA09781,0,test
@@ -7403,7 +7411,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. N
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09916/UNANNOTATED/SMITA09916_KSR_LB.jpg,code,code:SMITA09916,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09916/UNANNOTATED/SMITA09916_KSR_LL.jpg,code,code:SMITA09916,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09916/UNANNOTATED/SMITA09916_KSR_RB.jpg,code,code:SMITA09916,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09916/UNANNOTATED/SMITA09916_KSR_UA.jpg,code,code:SMITA09916,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09916/UNANNOTATED/SMITA09916_KSR_UL.jpg,code,code:SMITA09916,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09916/UNANNOTATED/SMITA09916_KSR_VT.jpg,code,code:SMITA09916,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA09917/UNANNOTATED/SMITA09917_KSR_DT.jpg,code,code:SMITA09917,0,test
@@ -7542,7 +7549,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. N
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA10037/UNANNOTATED/SMITA10037_KSR_UL.jpg,code,code:SMITA10037,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA10037/UNANNOTATED/SMITA10037_KSR_VT.jpg,code,code:SMITA10037,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA10101/UNANNOTATED/SMITA10101_KSR_DT.jpg,code,code:SMITA10101,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA10101/UNANNOTATED/SMITA10101_KSR_LA.jpg,code,code:SMITA10101,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA10101/UNANNOTATED/SMITA10101_KSR_LB.jpg,code,code:SMITA10101,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA10101/UNANNOTATED/SMITA10101_KSR_LL.jpg,code,code:SMITA10101,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA10101/UNANNOTATED/SMITA10101_KSR_RB.jpg,code,code:SMITA10101,0,test
@@ -7570,7 +7576,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. N
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA10104/UNANNOTATED/SMITA10104_KSR_LB.jpg,code,code:SMITA10104,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA10104/UNANNOTATED/SMITA10104_KSR_LL.jpg,code,code:SMITA10104,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA10104/UNANNOTATED/SMITA10104_KSR_RB.jpg,code,code:SMITA10104,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA10104/UNANNOTATED/SMITA10104_KSR_UA.jpg,code,code:SMITA10104,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA10104/UNANNOTATED/SMITA10104_KSR_UL.jpg,code,code:SMITA10104,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA10104/UNANNOTATED/SMITA10104_KSR_VT.jpg,code,code:SMITA10104,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA10105/UNANNOTATED/SMITA10105_KSR_DT.jpg,code,code:SMITA10105,0,test
@@ -8238,7 +8243,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. N
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA10760/UNANNOTATED/SMITA10760_KSR_LB.jpg,code,code:SMITA10760,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA10760/UNANNOTATED/SMITA10760_KSR_LL.jpg,code,code:SMITA10760,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA10760/UNANNOTATED/SMITA10760_KSR_RB.jpg,code,code:SMITA10760,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA10760/UNANNOTATED/SMITA10760_KSR_UA.jpg,code,code:SMITA10760,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA10760/UNANNOTATED/SMITA10760_KSR_UL.jpg,code,code:SMITA10760,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA10760/UNANNOTATED/SMITA10760_KSR_VT.jpg,code,code:SMITA10760,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA10763/UNANNOTATED/SMITA10763_KSR_DT.jpg,code,code:SMITA10763,0,test
@@ -8807,7 +8811,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. N
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA11964/UNANNOTATED/SMITA11964_KSR_UA.jpg,code,code:SMITA11964,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA11964/UNANNOTATED/SMITA11964_KSR_UL.jpg,code,code:SMITA11964,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA11964/UNANNOTATED/SMITA11964_KSR_VT.jpg,code,code:SMITA11964,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA11981/UNANNOTATED/SMITA11981_KSR_DT.jpg,code,code:SMITA11981,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA11981/UNANNOTATED/SMITA11981_KSR_LA.jpg,code,code:SMITA11981,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA11981/UNANNOTATED/SMITA11981_KSR_LB.jpg,code,code:SMITA11981,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/01. NORMAL IMAGES/SMITA11981/UNANNOTATED/SMITA11981_KSR_LL.jpg,code,code:SMITA11981,0,test
@@ -9269,7 +9272,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/02. V
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/02. VARIATIONS FROM NORMAL IMAGES/SMITA06976/UNANNOTATED/SMITA06976_KSR_RB.jpg,code,code:SMITA06976,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/02. VARIATIONS FROM NORMAL IMAGES/SMITA06976/UNANNOTATED/SMITA06976_KSR_UL.jpg,code,code:SMITA06976,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/02. VARIATIONS FROM NORMAL IMAGES/SMITA06983/UNANNOTATED/SMITA06983_KSR_LL.jpg,code,code:SMITA06983,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/02. VARIATIONS FROM NORMAL IMAGES/SMITA06983/UNANNOTATED/SMITA06983_KSR_UA.jpg,code,code:SMITA06983,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/02. VARIATIONS FROM NORMAL IMAGES/SMITA06991/UNANNOATED/SMITA06991_KSR_LB.jpg,code,code:SMITA06991,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/02. VARIATIONS FROM NORMAL IMAGES/SMITA06993/UNANNOTATED/SMITA06993_KSR_RB.jpg,code,code:SMITA06993,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/02. VARIATIONS FROM NORMAL IMAGES/SMITA06996/UNANNOTATED/SMITA06996_KSR_LB.jpg,code,code:SMITA06996,0,test
@@ -9281,7 +9283,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/02. V
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/02. VARIATIONS FROM NORMAL IMAGES/SMITA07439/UNANNOTATED IMAGES/SMITA07439_KSR_LL.jpg,code,code:SMITA07439,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/02. VARIATIONS FROM NORMAL IMAGES/SMITA07465/UNANNOTATED IMAGES/SMITA07465_KSR_LB.jpg,code,code:SMITA07465,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/02. VARIATIONS FROM NORMAL IMAGES/SMITA07465/UNANNOTATED IMAGES/SMITA07465_KSR_RB.jpg,code,code:SMITA07465,0,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/02. VARIATIONS FROM NORMAL IMAGES/SMITA07482/UNANNOTATED IMAGES/SMITA07482_KSR_UA.jpg,code,code:SMITA07482,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/02. VARIATIONS FROM NORMAL IMAGES/SMITA07501/UNANNOTATED IMAGES/SMITA07501_KSR_LB.jpg,code,code:SMITA07501,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/02. VARIATIONS FROM NORMAL IMAGES/SMITA07501/UNANNOTATED IMAGES/SMITA07501_KSR_RB.jpg,code,code:SMITA07501,0,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/02. VARIATIONS FROM NORMAL IMAGES/SMITA07613/UNANNOTATED IMAGES/SMITA07613_KSR_LA.jpg,code,code:SMITA07613,0,test
@@ -9382,13 +9383,6 @@ code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/03. O
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/03. OPMD IMAGES/SMITA07991/unannotated/SMITA07991_KSR_RB.jpg,code,code:SMITA07991,1,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/03. OPMD IMAGES/SMITA09502/UN ANNOTATED/SMITA09502_KSR_LB.jpg,code,code:SMITA09502,1,test
 code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/03. OPMD IMAGES/SMITA11347/unannotated/SMITA11347_KSR_RB.jpg,code,code:SMITA11347,1,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/04. ORAL CANCER IMAGES/SMITA07086/Unannotated/SMITA07086_RAG.jpg,code,code:SMITA07086,1,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/04. ORAL CANCER IMAGES/SMITA07089/Unannotated/SMITA07089_RAG.jpg,code,code:SMITA07089,1,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/04. ORAL CANCER IMAGES/SMITA07090/Unannotated/SMITA07090_RAG.jpg,code,code:SMITA07090,1,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/04. ORAL CANCER IMAGES/SMITA07091/Unannotated/SMITA07091_RAG.jpeg,code,code:SMITA07091,1,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/04. ORAL CANCER IMAGES/SMITA07092/Unannotated/SMITA07092_RAG.jpg,code,code:SMITA07092,1,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/04. ORAL CANCER IMAGES/SMITA07093/Unannotated/SMITA07093_RAG.png,code,code:SMITA07093,1,test
-code/CODE - Comprehensive Oral mucosa Database with Explanations_Version_5/04. ORAL CANCER IMAGES/SMITA07094/Unannotated/SMITA07094_RAG.png,code,code:SMITA07094,1,test
 karnataka/Oral Images Dataset/original_data/benign_lesions/1.jpg,karnataka,karnataka:dup9415,0,test
 karnataka/Oral Images Dataset/original_data/benign_lesions/10.jpg,karnataka,karnataka:dup9416,0,test
 karnataka/Oral Images Dataset/original_data/benign_lesions/100.jpg,karnataka,karnataka:dup9417,0,test
