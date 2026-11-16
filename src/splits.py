@@ -1,5 +1,6 @@
 """Keep every patient on one side of a split, and catch the same photo appearing twice."""
 
+import zlib
 from pathlib import Path
 
 import numpy as np
@@ -63,10 +64,11 @@ def cross_site_duplicates(df: pd.DataFrame, max_bits: int = 4) -> pd.DataFrame:
 
 def make_splits(df: pd.DataFrame, seed: int) -> pd.DataFrame:
     """70/15/15 by group inside each site, balanced on whether the group has any refer image."""
-    rng = np.random.default_rng(seed)
     split_of = {}
     group_label = df.groupby(["site", "group"], sort=True).label.max()
-    for (_site, _label), groups in group_label.groupby([group_label.index.get_level_values("site"), group_label]):
+    for (site, label), groups in group_label.groupby([group_label.index.get_level_values("site"), group_label]):
+        # seeded per site and class, so adding another dataset never reshuffles this one
+        rng = np.random.default_rng([seed, zlib.crc32(site.encode()), int(label)])
         names = rng.permutation(groups.index.get_level_values("group").to_numpy())
         a, b = round(0.70 * len(names)), round(0.85 * len(names))
         split_of.update({g: "train" for g in names[:a]})
@@ -80,5 +82,5 @@ def save_splits(df: pd.DataFrame, seed: int) -> None:
     df[["path", "site", "group", "label", "split"]].to_csv(SPLITS_DIR / f"seed{seed}.csv", index=False)
 
 
-def load_splits(seed: int) -> pd.DataFrame:
-    return pd.read_csv(SPLITS_DIR / f"seed{seed}.csv")
+def load_splits(seed: int, directory: Path = SPLITS_DIR) -> pd.DataFrame:
+    return pd.read_csv(Path(directory) / f"seed{seed}.csv")

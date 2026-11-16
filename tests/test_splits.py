@@ -85,3 +85,12 @@ def test_cross_site_duplicates_found(tmp_path):
     df = pd.DataFrame({"path": ["a.jpg", "b.jpg", "c.jpg"], "site": ["smartom", "code", "code"], "patient_id": None, "label": 0})
     pairs = cross_site_duplicates(add_groups(df, tmp_path))
     assert len(pairs) == 1 and set(pairs.iloc[0][["path_a", "path_b"]]) == {"a.jpg", "b.jpg"}
+
+
+def test_a_site_split_does_not_depend_on_which_other_sites_are_loaded():
+    smartom = fake_index()
+    china = fake_index(60, seed=1).assign(site="china")     # sorts before smartom, so it is split first
+    china["group"] = "china:" + china.group.str.split(":").str[1]
+    alone = make_splits(smartom, 0).split.tolist()
+    with_others = make_splits(pd.concat([smartom, china], ignore_index=True), 0)
+    assert with_others[with_others.site == "smartom"].split.tolist() == alone

@@ -28,8 +28,9 @@ if __name__ == "__main__":
     print(f"\nphotos that appear in two datasets: {len(shared)}")
     if len(shared):
         print(shared.to_string(index=False))
-        # keep the copy in the first-listed site, drop the other, so no test site holds a training photo
-        df = df[~df.path.isin(shared.path_b)]
+        # drop the copy held by a test-only site, so training data is untouched and no test photo was trained on
+        drop_b = shared.site_b.isin(TEST_ONLY)
+        df = df[~df.path.isin(pd.concat([shared.path_b[drop_b], shared.path_a[~drop_b]]))]
 
     print("\nphotos per site and class")
     print(df.groupby(["site", "orig_class"]).size().to_string())
