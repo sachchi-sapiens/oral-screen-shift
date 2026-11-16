@@ -67,7 +67,7 @@ def figure(table: pd.DataFrame, results, splits_dir, out: Path) -> None:
     for test in [s for s in ALL if s in mean.columns]:
         left.plot(range(len(mean)), mean[test], marker="o", markersize=7, linewidth=2, color=COLOURS[test], label=NAMES[test])
     left.axhline(1 - ALPHA, color=MUTED, linewidth=1, linestyle="--")
-    left.text(len(mean) - 1, 1 - ALPHA, " promised 90%", va="bottom", ha="right", color=MUTED, fontsize=9)
+    left.text(0.06, 1 - ALPHA - 0.012, "promised 90%", va="top", ha="left", color=MUTED, fontsize=9)
     left.set_xticks(range(len(mean)), ["none" if n == 0 else str(n) for n in mean.index])
     left.set_xlabel("labelled photos from the new site used to recalibrate")
     left.set_ylabel("coverage at the new site")
