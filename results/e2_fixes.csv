@@ -1,0 +1,7 @@
+test,method,sources,auroc,sensitivity,specificity,ece
+smartom,"DINOv2 probe, one site",1,0.8277,0.9667,0.3405,0.7902
+china,"DINOv2 probe, one site",1,0.8737,0.5654,0.8972,0.5132
+code,"DINOv2 probe, one site",2,0.8670,0.9103,0.5641,0.4880
+code,"DINOv2 probe, two sites",1,0.8723,0.6154,0.8627,0.1713
+karnataka,"DINOv2 probe, one site",2,0.8067,0.8863,0.5091,0.2599
+karnataka,"DINOv2 probe, two sites",1,0.7783,0.8874,0.4586,0.2125

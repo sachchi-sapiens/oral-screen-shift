@@ -1,0 +1,7 @@
+site_a,site_b,healthy_photos_a,healthy_photos_b,balanced_accuracy
+china,code,286,5554,0.9870
+china,karnataka,286,165,0.9570
+china,smartom,286,2324,0.9855
+code,karnataka,5554,165,0.9194
+code,smartom,5554,2324,0.9065
+karnataka,smartom,165,2324,0.9143
