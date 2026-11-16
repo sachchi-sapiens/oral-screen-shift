@@ -44,7 +44,10 @@ def add_groups(df: pd.DataFrame, root: Path, max_bits: int = 4) -> pd.DataFrame:
 
         for i, j in zip(*np.nonzero(np.triu(_bits_apart(hashes, hashes) <= max_bits, k=1))):
             parent[find(j)] = find(i)
-        df.loc[loose, "group"] = [f"{site}:dup{loose[find(i)]}" for i in range(len(loose))]
+        # name each cluster after its first path, so the name is the same whatever order the files were listed in
+        roots = np.array([find(i) for i in range(len(loose))])
+        paths = df.path[loose].to_numpy()
+        df.loc[loose, "group"] = [f"{site}:{min(paths[roots == r])}" for r in roots]
     return df
 
 
@@ -77,10 +80,18 @@ def make_splits(df: pd.DataFrame, seed: int) -> pd.DataFrame:
     return df.assign(split=df.group.map(split_of))
 
 
-def save_splits(df: pd.DataFrame, seed: int) -> None:
-    SPLITS_DIR.mkdir(exist_ok=True)
-    df[["path", "site", "group", "label", "split"]].to_csv(SPLITS_DIR / f"seed{seed}.csv", index=False)
+RESTRICTED = {"srilanka"}  # licence forbids redistribution: its rows go in a file that is never committed
+
+
+def save_splits(df: pd.DataFrame, seed: int, directory: Path = SPLITS_DIR) -> None:
+    Path(directory).mkdir(exist_ok=True)
+    rows = df[["path", "site", "group", "label", "split"]]
+    private = rows.site.isin(RESTRICTED)
+    rows[~private].to_csv(Path(directory) / f"seed{seed}.csv", index=False)
+    if private.any():
+        rows[private].to_csv(Path(directory) / f"seed{seed}.restricted.csv", index=False)
 
 
 def load_splits(seed: int, directory: Path = SPLITS_DIR) -> pd.DataFrame:
-    return pd.read_csv(Path(directory) / f"seed{seed}.csv")
+    files = [Path(directory) / f"seed{seed}.csv", Path(directory) / f"seed{seed}.restricted.csv"]
+    return pd.concat([pd.read_csv(f) for f in files if f.exists()], ignore_index=True)

@@ -6,3 +6,6 @@ checkpoints/
 __pycache__/
 .pytest_cache/
 .superpowers/
+splits/*.restricted.csv
+results/preds/*srilanka*
+data_small/

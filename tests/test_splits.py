@@ -94,3 +94,24 @@ def test_a_site_split_does_not_depend_on_which_other_sites_are_loaded():
     alone = make_splits(smartom, 0).split.tolist()
     with_others = make_splits(pd.concat([smartom, china], ignore_index=True), 0)
     assert with_others[with_others.site == "smartom"].split.tolist() == alone
+
+
+def test_restricted_site_rows_are_saved_to_a_separate_file(tmp_path):
+    from src.splits import load_splits, save_splits
+    df = pd.concat([fake_index(20), fake_index(20, seed=1).assign(site="srilanka")], ignore_index=True)
+    df = make_splits(df, 0)
+    save_splits(df, 0, tmp_path)
+    public = pd.read_csv(tmp_path / "seed0.csv")
+    assert set(public.site) == {"smartom"}                       # safe to commit
+    assert (tmp_path / "seed0.restricted.csv").exists()
+    back = load_splits(0, tmp_path)
+    assert len(back) == len(df) and set(back.site) == {"smartom", "srilanka"}
+    assert back.equals(load_splits(0, tmp_path))                 # same row order every time
+
+
+def test_duplicate_group_names_do_not_depend_on_row_order(tmp_path):
+    save_images(tmp_path)
+    df = pd.DataFrame({"path": ["a.jpg", "b.jpg", "c.jpg"], "site": "china", "patient_id": None, "label": 0})
+    forward = add_groups(df, tmp_path).set_index("path").group
+    backward = add_groups(df.iloc[::-1], tmp_path).set_index("path").group
+    assert forward.to_dict() == backward.to_dict()

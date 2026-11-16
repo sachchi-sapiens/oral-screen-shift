@@ -10,6 +10,7 @@ import numpy as np
 import pandas as pd
 
 from src.evaluate import pick_threshold
+from src.splits import load_splits
 
 MAIN = ["smartom", "china"]               # sites with enough refer cases to train on
 ALL = MAIN + ["code", "karnataka"]        # code (21 refer photos) and karnataka (323 photos) are test sites only
@@ -43,7 +44,7 @@ def load_preds(results: Path, splits_dir: Path, model: str, train: str, seed: in
     path = pred_path(results, model, train, seed, test, split)
     if not path.exists():
         return None
-    rows = pd.read_csv(Path(splits_dir) / f"seed{seed}.csv")
+    rows = load_splits(seed, splits_dir)
     rows = rows[(rows.site == test) & (rows.split == split)]
     p = np.load(path)
     assert len(p) == len(rows), f"{path.name}: {len(p)} predictions for {len(rows)} photos"
