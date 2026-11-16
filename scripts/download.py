@@ -8,6 +8,7 @@ import json
 import os
 import shutil
 import sys
+import urllib.error
 import urllib.request
 import zipfile
 from pathlib import Path
@@ -26,17 +27,26 @@ def zenodo_files(record: int, out: Path) -> None:
     if not token:
         sys.exit("Set ZENODO_TOKEN to a Zenodo personal access token (Account > Applications).")
     auth = {"Authorization": f"Bearer {token}"}
-    with urllib.request.urlopen(urllib.request.Request(f"https://zenodo.org/api/records/{record}", headers=auth)) as r:
-        files = json.load(r)["files"]
+    # the record page itself lists no files for a restricted record; this endpoint does, for an approved account
+    listing = urllib.request.Request(f"https://zenodo.org/api/records/{record}/files", headers=auth)
+    try:
+        with urllib.request.urlopen(listing) as r:
+            entries = json.load(r)["entries"]
+    except urllib.error.HTTPError as e:
+        sys.exit(f"Zenodo refused the file list (HTTP {e.code}). Check that the token is current and that it "
+                 "belongs to the account whose access request was accepted.")
+    if not entries:
+        sys.exit(f"Zenodo record {record} shows no files to this token.")
     out.mkdir(parents=True)
-    for f in files:
-        request = urllib.request.Request(f["links"]["self"], headers=auth)
-        with urllib.request.urlopen(request) as r, open(out / f["key"], "wb") as target:
+    for entry in entries:
+        request = urllib.request.Request(entry["links"]["content"], headers=auth)
+        with urllib.request.urlopen(request) as r, open(out / entry["key"], "wb") as target:
             shutil.copyfileobj(r, target, 1 << 20)
-        if f["key"].endswith(".zip"):
-            with zipfile.ZipFile(out / f["key"]) as z:
+        if entry["key"].endswith(".zip"):
+            with zipfile.ZipFile(out / entry["key"]) as z:
                 z.extractall(out)
-            (out / f["key"]).unlink()
+            (out / entry["key"]).unlink()
+        print(f"  {entry['key']}")
 
 
 def zip_url(site: str) -> str:
@@ -50,9 +60,11 @@ def zip_url(site: str) -> str:
 
 def download(site: str, out: Path) -> None:
     target = out / site
-    if target.exists():
+    if target.exists() and any(target.iterdir()):
         print(f"{site}: {target} already exists, skipped")
         return
+    if target.exists():
+        target.rmdir()  # an empty folder left by a failed run
     out.mkdir(parents=True, exist_ok=True)
     partial = out / f"{site}.partial"  # so an interrupted run is not mistaken for a finished one
     if site in ZENODO:
