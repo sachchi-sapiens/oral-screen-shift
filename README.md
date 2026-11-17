@@ -8,9 +8,11 @@ Oral cancer is common in South Asia and is usually found late, although early le
 
 ## What it found
 
-Results so far are for a linear probe on frozen DINOv2 features. Fine-tuned ResNet-50 results are being added. Full write-up: [REPORT.md](REPORT.md).
+Two model families were tested: a linear probe on frozen DINOv2 features and a fine-tuned ResNet-50. Full write-up: [REPORT.md](REPORT.md).
 
 ![Train on one site, test on every site](results/e1_matrix.png)
+
+Linear probe, threshold set at the training site:
 
 | Trained on | Tested on | AUROC | Lesions caught | Healthy mouths cleared |
 |---|---|---|---|---|
@@ -25,7 +27,8 @@ Results so far are for a linear probe on frozen DINOv2 features. Fine-tuned ResN
 3. A statistical safety guarantee fails in the same way. A rule that promises 90% coverage delivers 7% to 67% at another group's site.
 4. Fifty local labelled photos restore the promise, but the model then says "not sure" for most photos.
 5. Photos carry a site signature. A simple classifier can tell which dataset a healthy photo came from with 91% to 99% accuracy.
-6. The public datasets overlap. Ten photos are identical in two datasets with different labels, and all seven cancer photos of one dataset also sit in another. See [data/README.md](data/README.md).
+6. Fine-tuning helps at home and hurts away. ResNet-50 is slightly better in-site but loses more between countries (AUROC 0.78 against 0.87). Trained on both sites with colour augmentation it gave the best unseen-site results: 0.96 on CODE and 0.83 on Karnataka.
+7. The public datasets overlap. Ten photos are identical in two datasets with different labels, and all seven cancer photos of one dataset also sit in another. See [data/README.md](data/README.md).
 
 ## What is here
 

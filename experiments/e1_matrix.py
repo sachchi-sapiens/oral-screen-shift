@@ -71,7 +71,7 @@ def figure(table: pd.DataFrame, out: Path) -> None:
             ax.grid(False)
     fig.suptitle("Train on one site, test on every site. The threshold is set on the training site and carried over.",
                  x=0.01, ha="left")
-    fig.tight_layout()
+    fig.tight_layout(rect=(0, 0, 1, 0.95))
     fig.savefig(out, dpi=160)
     plt.close(fig)
 

@@ -1,7 +1,17 @@
 test,method,sources,auroc,sensitivity,specificity,ece
+smartom,"ResNet, one site",1,0.7722,0.9688,0.3814,0.6339
+smartom,"ResNet + colour augmentation, one site",1,0.8006,0.9399,0.4605,0.5815
 smartom,"DINOv2 probe, one site",1,0.8277,0.9667,0.3405,0.7902
+china,"ResNet, one site",1,0.7785,0.5132,0.8021,0.5276
+china,"ResNet + colour augmentation, one site",1,0.7826,0.4562,0.8416,0.5281
 china,"DINOv2 probe, one site",1,0.8737,0.5654,0.8972,0.5132
+code,"ResNet, one site",2,0.8881,0.8718,0.6058,0.3922
+code,"ResNet + colour augmentation, one site",2,0.9030,0.9103,0.6395,0.3742
 code,"DINOv2 probe, one site",2,0.8670,0.9103,0.5641,0.4880
+code,"ResNet + colour augmentation, two sites",1,0.9647,0.8718,0.8884,0.1257
 code,"DINOv2 probe, two sites",1,0.8723,0.6154,0.8627,0.1713
+karnataka,"ResNet, one site",2,0.8067,0.8806,0.5364,0.2130
+karnataka,"ResNet + colour augmentation, one site",2,0.8231,0.8660,0.5535,0.1988
 karnataka,"DINOv2 probe, one site",2,0.8067,0.8863,0.5091,0.2599
+karnataka,"ResNet + colour augmentation, two sites",1,0.8320,0.9527,0.3980,0.2840
 karnataka,"DINOv2 probe, two sites",1,0.7783,0.8874,0.4586,0.2125

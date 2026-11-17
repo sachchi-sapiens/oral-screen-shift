@@ -48,11 +48,11 @@ def main(results: Path = Path("results"), splits_dir: Path = Path("splits")) -> 
         ax.bar(x, t.auroc - 0.5, width * 0.9, bottom=0.5, color=colour, label=method)
         for xi, value in zip(x, t.auroc):
             if not np.isnan(value):
-                ax.text(xi, value + 0.005, f"{value:.2f}", ha="center", va="bottom", fontsize=8)
+                ax.text(xi, value + 0.005, f"{value:.2f}", ha="center", va="bottom", fontsize=7, rotation=90)
     ax.set_xticks(range(len(tests)), [NAMES[s] for s in tests])
     ax.set_xlabel("test site (never seen in training)")
     ax.set_ylabel("AUROC (0.5 = chance)")
-    ax.set_ylim(0.5, 1.0)
+    ax.set_ylim(0.5, 1.05)
     ax.set_title("Performance at a site the model never saw, by fix")
     ax.legend(loc="upper left", bbox_to_anchor=(1.0, 1.0))
     ax.grid(axis="x", visible=False)

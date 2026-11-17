@@ -2,18 +2,19 @@
 
 Sachchidananda Behera, November 2026. Code: this repository.
 
-The results below are for one of the two model families, a linear probe on frozen DINOv2 features. The fine-tuned ResNet-50 models are trained by `notebooks/colab_gpu.ipynb` and their rows will be added. A fifth dataset (Sri Lanka, restricted access) is approved but not yet included.
+Two model families were tested: a linear probe on frozen DINOv2 features, and a ResNet-50 fine-tuned end to end. A fifth dataset (Sri Lanka, restricted access) is approved but not yet included.
 
 ## Summary
 
 Oral cancer is often found late, although early lesions can be seen in the mouth, so several groups have trained models to flag suspicious lesions from phone photos. Their papers report accuracy on photos from the same source the model was trained on. I trained on one public dataset and tested on three others.
 
-1. A model's ranking of photos survives a move much better than its decisions do. A model trained on the China dataset scores AUROC 0.99 at home and 0.83 on SMART-OM (India). But with the threshold it learned at home, it clears only 34% of healthy Indian mouths, down from 97%. A model trained on SMART-OM catches 83% of lesions at home and 57% in the China dataset.
+1. A model's ranking of photos survives a move much better than its decisions do. A linear probe trained on the China dataset scores AUROC 0.99 at home and 0.83 on SMART-OM (India). But with the threshold it learned at home, it clears only 34% of healthy Indian mouths, down from 97%. A model trained on SMART-OM catches 83% of lesions at home and 57% in the China dataset. Fine-tuned ResNet-50 models show the same pattern.
 2. A move inside one research network costs nothing. SMART-OM to CODE (same network and photo protocol): AUROC 0.90 to 0.89, sensitivity 0.83 to 0.82.
 3. A statistical safety guarantee fails in the same way. A conformal "answer or say not sure" rule promises the right answer is in its output 90% of the time. At home it delivers 89% to 92%. After a move to another research group's dataset it delivers between 7% and 67%.
 4. Recalibrating on local photos makes the rule honest again, at the cost of answering few photos. With 100 labelled photos from the new site the 90% promise holds again, but outside its own research network the model then answers only 8% to 48% of photos and says "not sure" for the rest.
 5. The photos carry a site signature. A linear classifier can tell which dataset a *healthy* photo came from with 91% to 99% balanced accuracy. Since the datasets differ enormously in how many lesions they contain (79% in China, 6% in SMART-OM), a model can do well at home by recognising the dataset.
-6. The public datasets overlap. Ten photos are identical in the China and Karnataka datasets, with different labels. All seven oral cancer photos in CODE are also in SMART-OM. Any study that trains on one and tests on the other without checking is partly testing on its training data.
+6. Fine-tuning helps at home and hurts away. ResNet-50 matches or beats the frozen probe in-site (0.92 against 0.90 on SMART-OM) but loses more after a move between countries (0.78 against 0.87, SMART-OM to China). The one fix that clearly helped was a ResNet trained on both sites with colour augmentation: AUROC 0.96 on CODE and 0.83 on Karnataka, the best results at either unseen site.
+7. The public datasets overlap. Ten photos are identical in the China and Karnataka datasets, with different labels. All seven oral cancer photos in CODE are also in SMART-OM. Any study that trains on one and tests on the other without checking is partly testing on its training data.
 
 The published models may well be right about their own data. An in-site test still tells a clinic very little about what will happen in its own waiting room.
 
@@ -55,6 +56,8 @@ The refusal rule is split conformal prediction with a 10% error target, calibrat
 
 ![Train/test matrix](results/e1_matrix.png)
 
+Linear probe on frozen DINOv2:
+
 | Trained on | Tested on | AUROC | Sensitivity | Specificity | Calibration error |
 |---|---|---|---|---|---|
 | SMART-OM | SMART-OM | 0.90 (0.82 to 0.96) | 0.83 (0.67 to 0.95) | 0.83 (0.80 to 0.87) | 0.08 |
@@ -66,9 +69,26 @@ The refusal rule is split conformal prediction with a 10% error target, calibrat
 | China | CODE | 0.84 (0.67 to 0.92) | 1.00 (1.00 to 1.00) | 0.35 (0.33 to 0.36) | 0.84 |
 | China | Karnataka | 0.81 (0.77 to 0.86) | 0.95 (0.91 to 0.98) | 0.40 (0.33 to 0.48) | 0.39 |
 
-AUROC falls by 0.03 to 0.18 after a move, a drop a reader might accept. Sensitivity and specificity change far more. The China-trained model's scores for healthy mouths rise from an average of 0.11 at home to 0.84 on SMART-OM, so nearly everything crosses the threshold. The SMART-OM-trained model's scores for lesions fall from 0.61 at home to 0.34 on China, so half slip under it. The calibration error column says the same thing: 0.03 at home, 0.79 away.
+Fine-tuned ResNet-50:
 
-The exception is SMART-OM to CODE, which share a research network and a written photo protocol. Nothing is lost there. The shared photo protocol is the obvious candidate for why, though this study cannot isolate it.
+| Trained on | Tested on | AUROC | Sensitivity | Specificity | Calibration error |
+|---|---|---|---|---|---|
+| SMART-OM | SMART-OM | 0.92 (0.85 to 0.97) | 0.86 | 0.84 | 0.10 |
+| SMART-OM | CODE | 0.92 (0.85 to 0.96) | 0.85 | 0.78 | 0.15 |
+| SMART-OM | China | 0.78 (0.69 to 0.85) | 0.51 | 0.80 | 0.53 |
+| SMART-OM | Karnataka | 0.79 (0.73 to 0.83) | 0.82 | 0.59 | 0.14 |
+| China | China | 0.98 (0.95 to 1.00) | 0.94 | 0.94 | 0.05 |
+| China | SMART-OM | 0.77 (0.69 to 0.87) | 0.97 | 0.38 | 0.63 |
+| China | CODE | 0.85 (0.56 to 0.94) | 0.90 | 0.43 | 0.63 |
+| China | Karnataka | 0.83 (0.78 to 0.87) | 0.95 | 0.49 | 0.28 |
+
+Intervals for every cell are in `results/e1_matrix.csv`.
+
+Between countries AUROC falls by up to 0.21, a drop a reader might accept. Sensitivity and specificity change far more. The China-trained probe's scores for healthy mouths rise from an average of 0.11 at home to 0.84 on SMART-OM, so nearly everything crosses the threshold. The SMART-OM-trained probe's scores for lesions fall from 0.61 at home to 0.34 on China, so half slip under it. The calibration error column says the same thing: 0.03 at home, 0.79 away.
+
+At home the two model families are close: the ResNet is slightly better on SMART-OM and slightly worse on China. Between the two countries the ResNet loses more, with AUROC 0.78 against 0.87 for SMART-OM to China and 0.77 against 0.83 in the other direction. Adjusting every weight to one dataset lets the model fit more of that dataset's peculiarities.
+
+The exception is SMART-OM to CODE, which share a research network and a written photo protocol. Neither model loses anything there. The shared photo protocol is the obvious candidate for why, though this study cannot isolate it.
 
 Sensitivity on SMART-OM and CODE rests on about 21 and 13 refer photos. Their intervals are wide.
 
@@ -76,22 +96,29 @@ Sensitivity on SMART-OM and CODE rests on about 21 and 13 refer photos. Their in
 
 ![Fixes](results/e2_fixes.png)
 
-Only one fix can be judged so far: training on both SMART-OM and China, tested on the two sites neither has seen.
+AUROC at a site the model never saw. Single-site rows average over the available training sites.
 
-| Test site | Trained on | AUROC | Sensitivity | Specificity |
+| Method | SMART-OM | China | CODE | Karnataka |
 |---|---|---|---|---|
-| CODE | one site (mean of two) | 0.87 | 0.91 | 0.56 |
-| CODE | both sites | 0.87 | 0.62 | 0.86 |
-| Karnataka | one site (mean of two) | 0.81 | 0.89 | 0.51 |
-| Karnataka | both sites | 0.78 | 0.89 | 0.46 |
+| ResNet-50, one site | 0.77 | 0.78 | 0.89 | 0.81 |
+| ResNet-50 + colour augmentation, one site | 0.80 | 0.78 | 0.90 | 0.82 |
+| DINOv2 probe, one site | 0.83 | 0.87 | 0.87 | 0.81 |
+| ResNet-50 + colour augmentation, both sites | | | 0.96 | 0.83 |
+| DINOv2 probe, both sites | | | 0.87 | 0.78 |
 
-Pooling did not improve ranking at an unseen site, and on Karnataka it made it slightly worse. It shifted the balance between sensitivity and specificity without improving either site's ranking. Colour augmentation and the ResNet comparison need the fine-tuned models and are pending.
+Colour and lighting augmentation gave small gains of 0.01 to 0.03, and none on China. If camera colour were the main source of the drop, it would have done more.
+
+With one training site, the frozen probe travelled better than the fine-tuned ResNet between the two countries, by 0.06 and 0.09 AUROC.
+
+Training on both sites behaved differently for the two models. For the probe it changed nothing on CODE and made Karnataka slightly worse. For the ResNet with colour augmentation it gave the best result at both unseen sites: AUROC 0.96 (0.94 to 0.98) on CODE, with sensitivity 0.87 and specificity 0.89, and 0.83 (0.79 to 0.87) on Karnataka. A model that adapts all its weights appears able to use the variety of two sites, where a fixed feature extractor with a linear layer cannot. On Karnataka the threshold still fails: specificity 0.40 against sensitivity 0.95.
+
+CODE shares a research network with SMART-OM, one of the two training sites, so its 0.96 is not a clean test of a new site. Karnataka is.
 
 ### Experiment 3: does "not sure" keep its promise?
 
 ![Refusal](results/e3_refusal.png)
 
-Each cell is *coverage / share of photos answered*. Coverage should be 0.90.
+Each cell is *coverage / share of photos answered*. Coverage should be 0.90. Linear probe:
 
 | Trained on | Tested on | No recalibration | 25 local photos | 50 | 100 |
 |---|---|---|---|---|---|
@@ -104,9 +131,22 @@ Each cell is *coverage / share of photos answered*. Coverage should be 0.90.
 | China | CODE | 0.07 / 82% | 0.95 / 6% | 0.92 / 8% | 0.92 / 8% |
 | China | Karnataka | 0.54 / 90% | 0.97 / 14% | 0.93 / 30% | 0.92 / 34% |
 
-Without recalibration the rule keeps answering confidently, 82% to 90% of photos, while being wrong far more often than it promised. That is the dangerous case, because the tool still looks sure.
+ResNet-50 with colour augmentation:
 
-Fifty labelled local photos are enough to restore the promise at every site tested. What they cannot restore is the model's ability to separate the classes at that site, so outside the SMART-OM network the honest rule answers fewer than half the photos, and often fewer than a quarter. A clinic could use this directly: about fifty labelled local photos show quickly whether the tool is usable there, and for most of the moves tested here it would not be.
+| Trained on | Tested on | No recalibration | 25 local photos | 50 | 100 |
+|---|---|---|---|---|---|
+| SMART-OM | SMART-OM | 0.89 / 95% | 0.93 / 81% | 0.90 / 91% | 0.89 / 94% |
+| SMART-OM | CODE | 0.89 / 95% | 0.94 / 83% | 0.91 / 93% | 0.91 / 95% |
+| SMART-OM | China | 0.30 / 90% | 0.97 / 9% | 0.92 / 19% | 0.92 / 19% |
+| SMART-OM | Karnataka | 0.65 / 89% | 0.96 / 28% | 0.92 / 46% | 0.92 / 49% |
+| China | China | 0.94 / 98% | 0.97 / 77% | 0.92 / 94% | 0.91 / 94% |
+| China | SMART-OM | 0.34 / 89% | 0.94 / 10% | 0.92 / 13% | 0.91 / 16% |
+| China | CODE | 0.34 / 89% | 0.94 / 9% | 0.91 / 15% | 0.91 / 14% |
+| China | Karnataka | 0.65 / 93% | 0.96 / 23% | 0.92 / 42% | 0.91 / 43% |
+
+Without recalibration the rule keeps answering confidently, 82% to 93% of photos, while being wrong far more often than it promised. That is the dangerous case, because the tool still looks sure. Both model families fail this way, with coverage between 0.07 and 0.67 after a move to another research group's dataset.
+
+Fifty labelled local photos are enough to restore the promise at every site tested, for both models. What they cannot restore is the model's ability to separate the classes at that site, so outside the SMART-OM network the honest rule answers fewer than half the photos, and often fewer than a quarter. A clinic could use this directly: about fifty labelled local photos show quickly whether the tool is usable there, and for most of the moves tested here it would not be.
 
 In the right-hand panel, at home, the more confident the model, the more often it is right. Away, error is high at every confidence level, and for the China-trained model the most confident answers are the worst ones.
 
@@ -129,7 +169,8 @@ CODE and SMART-OM are also separable at 0.91, yet a model moved between them los
 
 ## Limits
 
-- Only one model family is reported so far. The fine-tuned ResNet-50 results are pending. The pattern may be milder or worse for a model that adapts all its weights.
+- The ResNet models were trained on copies of each photo shrunk to 320 pixels on the long side, to fit a free Colab GPU session. The probe used the full photos. Both are resized to 224 pixels before the model sees them, so the difference should be small, but it is a difference.
+- The ResNet hyperparameters were fixed in advance, not tuned per site, and each model was trained once per seed.
 - There are two training sites. They differ in country, cameras and case mix at once, and this study cannot say how much each contributes. The Sri Lanka dataset would give a third.
 - Two datasets have few lesions. SMART-OM's test split has about 21 refer photos and CODE has 13.
 - Refer cases are under-covered. The refusal rule's 90% is an average over all photos. Because healthy photos dominate, it is met while a third of SMART-OM's refer cases are still confidently cleared. Calibrating each class separately is the standard remedy and is not done here.
@@ -140,7 +181,7 @@ CODE and SMART-OM are also separable at 0.91, yet a model moved between them los
 
 ## What I would do next
 
-1. Add the fine-tuned models and the Sri Lanka dataset.
+1. Add the Sri Lanka dataset as a third training site, which would allow a clean leave-one-site-out test.
 2. Calibrate the refusal rule per class, so the promise holds for lesions specifically.
 3. Remove the site signature before training (for example by adversarially penalising a which-dataset classifier) and test whether the threshold then travels.
 4. Train with case mix matched across sites, to separate the effect of case mix from the effect of cameras.
@@ -158,7 +199,7 @@ python -m experiments.e3_refusal
 python -m experiments.e4_site
 ```
 
-The saved predictions for the open datasets are in `results/preds/`, so the last four commands run without any dataset.
+The fine-tuned models need a GPU: `notebooks/colab_gpu.ipynb` runs the ResNet stages on a free Colab GPU. The saved predictions for every model are in `results/preds/`, so the experiment scripts run without any dataset.
 
 ## Datasets
 
